@@ -1,0 +1,20 @@
+[submodule "src/extensions/shared-components"]
+	path = src/extensions/shared-components
+	url = ../game-client-packages/shared-components.git
+	branch = main
+[submodule "src/extensions/shared-classic-slot"]
+	path = src/extensions/shared-classic-slot
+	url = ../game-client-packages/shared-classic-slot.git
+	branch = main
+[submodule "src/build-templates"]
+	path = src/build-templates
+	url = ../game-client-packages/build-templates.git
+	branch = main
+[submodule "src/tests/cocos-testing"]
+	path = src/tests/cocos-testing
+	url = ../game-client-packages/cocos-testing.git
+	branch = main
+[submodule "src/extensions/i18n"]
+	path = src/extensions/i18n
+	url = ../game-client-packages/i18n.git
+	branch = main
