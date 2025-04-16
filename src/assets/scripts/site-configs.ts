@@ -14,17 +14,17 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         localhost: "lumigame.com",
     },
     ssl: true,
-    subDomain: "l1-proxy2",
+    subDomain: "l1-proxy3",
     env: "LOCAL",
     subGuideDomain: "l1-guide-2",
     SGConnectSubDomain: "connectsite",
     enableMsgpackParserAllGames: false,
     enableMsgpackParserOnNotification: false,
     websocket: {
-        proxyPath: "coinmining",
-        route: "coinmining",
+        proxyPath: "onepiece",
+        route: "onepiece",
     },
-    mainObserverNamespace: "CoinMining",
+    mainObserverNamespace: "OnePiece",
     tolgeeUrl: "",
 };
 

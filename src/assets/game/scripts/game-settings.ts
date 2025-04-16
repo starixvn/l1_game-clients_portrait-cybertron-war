@@ -5,10 +5,11 @@ import { sharedContainer } from "../../scripts/shared-container";
 import { NullRoundTimeHandlers } from "./handlers/null-round-time-handlers";
 
 export const settings = {
-    id: 109,
-    name: "CoinMining",
-    namespaces: ["CoinMining"],
+    id: 74,
+    name: "OnePiece",
+    namespaces: ["OnePiece"],
     durations: {
+        // dont need these durations configs for this game
         wholeRound: 14,
         lockingBet: 3,
         placingBet: 10,

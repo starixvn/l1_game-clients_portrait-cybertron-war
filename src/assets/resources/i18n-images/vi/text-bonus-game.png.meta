@@ -1,16 +1,11 @@
 {
-  "ver": "2.3.7",
-  "uuid": "05e3c872-797e-40a5-9f2b-1d4befea158d",
+  "ver": "1.0.22",
   "importer": "texture",
-  "type": "sprite",
-  "wrapMode": "clamp",
-  "filterMode": "bilinear",
-  "premultiplyAlpha": false,
-  "genMipmaps": false,
-  "packable": true,
-  "width": 362,
-  "height": 81,
-  "platformSettings": {},
+  "imported": true,
+  "uuid": "05e3c872-797e-40a5-9f2b-1d4befea158d",
+  "files": [
+    ".json"
+  ],
   "subMetas": {
     "text-bonus-game": {
       "ver": "1.0.6",
@@ -32,7 +27,21 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "subMetas": {}
+      "subMetas": {},
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
     }
+  },
+  "userData": {
+    "wrapModeS": "repeat",
+    "wrapModeT": "repeat",
+    "minfilter": "linear",
+    "magfilter": "linear",
+    "mipfilter": "none",
+    "anisotropy": 0
   }
 }

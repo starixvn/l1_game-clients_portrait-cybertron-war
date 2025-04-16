@@ -128,5 +128,65 @@
         "bundle": "resources",
         "path": "hit_lv4_05",
         "isLazyLoad": true
+    },
+    "big-win": {
+        "bundle": "resources"
+    },
+    "bonus-item": {
+        "bundle": "resources"
+    },
+    "bonus-popup": {
+        "bundle": "resources"
+    },
+    "bonus-total": {
+        "bundle": "resources"
+    },
+    "bonus": {
+        "bundle": "resources"
+    },
+    "freespin": {
+        "bundle": "resources"
+    },
+    "jackpot-hit": {
+        "bundle": "resources"
+    },
+    "jackpot-item": {
+        "bundle": "resources"
+    },
+    "jackpot-win": {
+        "bundle": "resources"
+    },
+    "reel-stop": {
+        "bundle": "resources"
+    },
+    "spin-button": {
+        "bundle": "resources"
+    },
+    "spinning-normal": {
+        "bundle": "resources"
+    },
+    "spinning-turbo": {
+        "bundle": "resources"
+    },
+    "symbol-win": {
+        "bundle": "resources"
+    },
+    "transition": {
+        "bundle": "resources"
+    },
+    "win": {
+        "bundle": "resources"
+    },
+    "song1": {
+        "bundle": "resources",
+        "path": "music/song1"
+    },
+    "song2": {
+        "bundle": "resources",
+        "path": "music/song2"
+    },
+    "song3": {
+        "bundle": "resources",
+        "path": "music/song3"
     }
 }

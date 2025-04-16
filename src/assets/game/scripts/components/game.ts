@@ -2,7 +2,7 @@ import { _decorator, Label } from "cc";
 import { startGame } from "db://shared-components/shared/scripts/startup";
 import Observer from "observer";
 
-import GameComponent from "db://shared-components/game/scripts/components/game-component";
+import ClassicSlot from "db://shared-classic-slot/scripts/components/classic-slot";
 import { siteConfigs } from "../../../scripts/site-configs";
 import { containerOptions, settings } from "../game-settings";
 import "./../../../resources/i18n";
@@ -19,7 +19,7 @@ export interface IWinInstantResult {
 
 @ccclass
 @observer(settings.name)
-export default class Game extends GameComponent {
+export default class Game extends ClassicSlot {
     @property({ type: Label, visible: false, override: true })
     lblMinBet: Label = null;
 
