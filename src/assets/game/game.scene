@@ -208,7 +208,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 393,
+    "_orthoHeight": 396.2170854271357,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -3111,6 +3111,8 @@
     "previewPopup": {
       "__id__": 104
     },
+    "previewSymbolLeft": null,
+    "previewSymbolRight": null,
     "_id": "ccRAdqSONMHJ+ysrp8lG3V"
   },
   {
@@ -3371,10 +3373,10 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 8,
-      "g": 8,
-      "b": 8,
-      "a": 150
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
     },
     "_spriteFrame": {
       "__uuid__": "274b102a-9505-4157-90c4-cc537af86c68@11e83",
@@ -3469,10 +3471,10 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 8,
-      "g": 8,
-      "b": 8,
-      "a": 150
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
     },
     "_spriteFrame": {
       "__uuid__": "274b102a-9505-4157-90c4-cc537af86c68@11e83",
@@ -8346,6 +8348,10 @@
     "gameAtlas": {
       "__uuid__": "766602cb-5cd9-48af-8b3c-9eb4f7811514",
       "__expectedType__": "cc.SpriteAtlas"
+    },
+    "colorJson": {
+      "__uuid__": "798b7e22-55e9-471e-bd0a-8993d2c7b46c",
+      "__expectedType__": "cc.JsonAsset"
     },
     "_id": "19ARpwWpRMN6MrMtXypxJr"
   },
