@@ -229,7 +229,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -60,
+      "y": -56,
       "z": 0
     },
     "_lrot": {
@@ -269,7 +269,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 69.33,
+      "width": 0,
       "height": 36
     },
     "_anchorPoint": {
@@ -305,7 +305,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "222",
+    "_string": "",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 32,
@@ -484,6 +484,7 @@
       "__id__": 0
     },
     "fileId": "82+p1ryXhMc6ndKn170+GT",
+    "instance": null,
     "targetOverrides": null
   }
 ]
