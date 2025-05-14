@@ -1,4 +1,5 @@
 import gc from "@sg/game-client-base";
+import { GAME_NAME } from "../game/scripts/game-settings";
 
 declare global {
     interface Window {
@@ -21,8 +22,8 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     enableMsgpackParserAllGames: false,
     enableMsgpackParserOnNotification: false,
     websocket: {
-        proxyPath: "onepiece",
-        route: "onepiece",
+        proxyPath: GAME_NAME.toLowerCase(),
+        route: GAME_NAME.toLowerCase(),
     },
     tolgeeUrl: "",
 };

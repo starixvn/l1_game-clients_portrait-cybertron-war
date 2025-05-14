@@ -6,7 +6,7 @@ import { sharedContainer } from "../../scripts/shared-container";
 import { NullBetResponseHandlers } from "./handlers/null-bet-response-handlers";
 import { NullRoundTimeHandlers } from "./handlers/null-round-time-handlers";
 
-const GAME_NAME = "OnePiece";
+export const GAME_NAME = "OnePiece";
 export const settings = {
     id: 74,
     name: GAME_NAME,
