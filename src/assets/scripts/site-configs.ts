@@ -24,7 +24,6 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         proxyPath: "onepiece",
         route: "onepiece",
     },
-    mainObserverNamespace: "OnePiece",
     tolgeeUrl: "",
 };
 

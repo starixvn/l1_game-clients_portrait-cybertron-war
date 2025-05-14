@@ -5,10 +5,13 @@ import * as ClassicSlot from "db://shared-classic-slot/scripts/handlers";
 import { sharedContainer } from "../../scripts/shared-container";
 import { NullBetResponseHandlers } from "./handlers/null-bet-response-handlers";
 import { NullRoundTimeHandlers } from "./handlers/null-round-time-handlers";
+
+const GAME_NAME = "OnePiece";
 export const settings = {
     id: 74,
-    name: "OnePiece",
-    namespaces: ["OnePiece"],
+    name: GAME_NAME,
+    observerNamespace: GAME_NAME,
+    tolgeeNamespaces: [GAME_NAME],
     durations: {
         // dont need these durations configs for this game
         wholeRound: 14,
