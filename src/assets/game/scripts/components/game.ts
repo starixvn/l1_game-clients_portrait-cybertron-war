@@ -4,7 +4,8 @@ import Observer from "observer";
 
 import ClassicSlot from "db://shared-classic-slot/scripts/components/classic-slot";
 import { siteConfigs } from "../../../scripts/site-configs";
-import { containerOptions, settings } from "../game-settings";
+import { containerOptions } from "../containerOptions";
+import { settings } from "../game-settings";
 import "./../../../resources/i18n";
 
 startGame(settings.name, containerOptions, siteConfigs, settings.tolgeeNamespaces);
