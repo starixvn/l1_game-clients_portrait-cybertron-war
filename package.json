@@ -11,6 +11,6 @@
     "license": "ISC",
     "devDependencies": {
         "@tolgee/web": "^5.10.1",
-        "ts-node": "^10.9.1"
+        "ts-node": "^10.9.2"
     }
 }

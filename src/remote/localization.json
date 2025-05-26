@@ -1,11 +1,18 @@
 {
-    "lobbyNames": {},
+    "lobbyNames": {
+        "en": "ONE PIECE",
+        "id": "ONE PIECE",
+        "th": "วันพีซ",
+        "vi": "ĐẢO HẢI TẶC",
+        "zh_cn": "海贼王",
+        "zh_tw": "海賊王"
+    },
     "gameNames": {
-        "en": "Crypto Mining",
-        "id": "Penambangan Kripto",
-        "th": "การขุดคริปโต",
-        "vi": "Đào Coin",
-        "zh_cn": "加密币挖矿",
-        "zh_tw": "加密幣挖礦"
+        "en": "Pirate King",
+        "id": "Pirate King",
+        "th": "ไพเรทคิงส์",
+        "vi": "VUA HẢI TẶC",
+        "zh_cn": "海盗王",
+        "zh_tw": "海盜王"
     }
 }
