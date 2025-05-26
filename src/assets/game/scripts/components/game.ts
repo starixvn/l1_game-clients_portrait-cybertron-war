@@ -28,15 +28,5 @@ export default class Game extends ClassicSlot {
     lblMaxBet: Label = null;
 
     override namespace = settings.name;
-    protected override enableEventShowHideGame = false;
     override containerOptions = containerOptions;
-
-    // @render(BetStore, (store) => store.roundId)
-    renderlblRound(roundId: number) {
-        this.lblRoundId && roundId !== 0 && (this.lblRoundId.string = `#${roundId}`);
-    }
-
-    override renderRoundId(roundId: number) {
-        // override to not use round id from round store
-    }
 }
