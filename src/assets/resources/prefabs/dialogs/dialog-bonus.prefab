@@ -2007,7 +2007,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 628.6276245117188,
+      "width": 628.6277465820312,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2104,7 +2104,7 @@
     "__prefab": {
       "__id__": 82
     },
-    "key": "classicSlot.bonus_count_text_item",
+    "key": "Classicslot.bonus_count_text_item",
     "format": 1,
     "prefix": "",
     "suffix": ":",
@@ -2150,7 +2150,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 319.3138122558594,
+      "x": 319.3138732910156,
       "y": 0,
       "z": 0
     },
@@ -2303,7 +2303,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 658.0036163330078,
+      "width": 658.0037384033203,
       "height": 100
     },
     "_anchorPoint": {

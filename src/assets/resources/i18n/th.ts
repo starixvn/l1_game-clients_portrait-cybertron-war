@@ -214,6 +214,7 @@ export const languages = {
         "auto_spin_left": "หมุนอัตโนมัติที่เหลือ",
         "bet": "เดิมพัน",
         "big_win": "รางวัลใหญ่",
+        "bonus_count_text_item": "จำนวนรายการ",
         "close": "ปิด",
         "disable_turbo_mode": "โหมดเทอร์โบ \"ปิด\"",
         "enable_turbo_mode": "โหมดเทอร์โบ \"เปิด\"",

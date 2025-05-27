@@ -214,6 +214,7 @@ export const languages = {
         "auto_spin_left": "自動旋轉剩餘",
         "bet": "賭注",
         "big_win": "大贏",
+        "bonus_count_text_item": "項目數",
         "close": "關閉",
         "disable_turbo_mode": "渦輪模式\"關閉\"",
         "enable_turbo_mode": "渦輪模式\"開啟\"",

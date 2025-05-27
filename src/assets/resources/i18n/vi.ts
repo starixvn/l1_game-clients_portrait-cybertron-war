@@ -214,6 +214,7 @@ export const languages = {
         "auto_spin_left": "Lượt Quay Tự Động Còn Lại",
         "bet": "Mức Cược",
         "big_win": "Thắng Lớn",
+        "bonus_count_text_item": "Số lần mở thưởng",
         "close": "Đóng",
         "disable_turbo_mode": "Tắt chế độ Siêu Tốc.",
         "enable_turbo_mode": "Bật chế độ Siêu Tốc.",

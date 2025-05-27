@@ -214,6 +214,7 @@ export const languages = {
         "auto_spin_left": "Auto Spins Left",
         "bet": "Bet",
         "big_win": "Big Win",
+        "bonus_count_text_item": "No. of Items",
         "close": "Close",
         "disable_turbo_mode": "Turbo Mode \"OFF\"",
         "enable_turbo_mode": "Turbo Mode \"ON\"",

@@ -214,6 +214,7 @@ export const languages = {
         "auto_spin_left": "自动旋转剩余",
         "bet": "赌注",
         "big_win": "大赢",
+        "bonus_count_text_item": "项目数",
         "close": "关闭\"",
         "disable_turbo_mode": "涡轮模式\"关闭\"",
         "enable_turbo_mode": "涡轮模式\"开启\"",

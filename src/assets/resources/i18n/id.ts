@@ -214,6 +214,7 @@ export const languages = {
         "auto_spin_left": "Sisa Putaran Otomatis",
         "bet": "Bertaruh",
         "big_win": "Kemenangan Besar",
+        "bonus_count_text_item": "Jumlah Item",
         "close": "Tutup",
         "disable_turbo_mode": "Mode Turbo \"MATI\"",
         "enable_turbo_mode": "Mode Turbo \"ON\"",
