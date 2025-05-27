@@ -2007,7 +2007,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 628.6277465820312,
+      "width": 206.69590759277344,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2043,7 +2043,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "CLASSICSLOT.BONUS_COUNT_TEXT_ITEM:",
+    "_string": "NO. OF ITEMS:",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 28,
@@ -2150,7 +2150,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 319.3138732910156,
+      "x": 108.34795379638672,
       "y": 0,
       "z": 0
     },
@@ -2303,7 +2303,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 658.0037384033203,
+      "width": 236.0718994140625,
       "height": 100
     },
     "_anchorPoint": {
