@@ -2469,7 +2469,6 @@
     "itemLocationMap": {
       "__id__": 12
     },
-    "soundSources": [],
     "previewPopup": {
       "__id__": 75
     },
@@ -11478,7 +11477,6 @@
       "__uuid__": "798b7e22-55e9-471e-bd0a-8993d2c7b46c",
       "__expectedType__": "cc.JsonAsset"
     },
-    "lineContainer": null,
     "_id": "19ARpwWpRMN6MrMtXypxJr"
   },
   {
