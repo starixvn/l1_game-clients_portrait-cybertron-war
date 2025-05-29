@@ -15,6 +15,7 @@ export const settings = {
         bigWinNotice: 5,
         normalWinNotice: 3,
         loseNotice: 1,
+        // dont need
     },
     numberOfRoundHistory: 11,
     validateBalanceWhenBet: true,
