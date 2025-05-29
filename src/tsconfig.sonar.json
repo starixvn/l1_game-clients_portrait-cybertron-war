@@ -6,6 +6,7 @@
         "resolveJsonModule": true,
         "types": ["node"],
         "paths": {
+            "db://assets/*": ["./assets/*"],
             "db://shared-classic-slot/*": ["./extensions/shared-classic-slot/assets/*"],
             "db://shared-components/*": ["./extensions/shared-components/assets/*"],
             "db://i18n/*": ["./extensions/i18n/assets/*"],
