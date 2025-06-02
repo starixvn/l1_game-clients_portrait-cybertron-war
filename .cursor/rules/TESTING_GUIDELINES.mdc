@@ -1,6 +1,6 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: true
 ---
 
@@ -238,3 +238,5 @@ alwaysApply: true
     betControlStore = container.get(BetControlStore) as jest.Mocked<BetControlStore>;
     ```
 -   Be explicit with types for variables holding mock instances.
+-   Don't need to mock anythings from "cc". They are mocked by "moduleNameMapper" with "cc": "<rootDir>/tests/cocos-testing/cc"
+-   Don't need to mock anythings from "observer".
