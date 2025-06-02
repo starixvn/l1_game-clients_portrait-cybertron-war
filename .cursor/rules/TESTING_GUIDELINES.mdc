@@ -3,7 +3,6 @@ description:
 globs: 
 alwaysApply: true
 ---
-
 ## 🧪 Cocos Creator Unit Testing Rules (Jest & Inversify)
 
 **Tags:** `jest`, `typescript`, `inversify`, `cocos-creator`, `unit-testing`
@@ -28,6 +27,7 @@ alwaysApply: true
     // ... other imports
 -   **Imports**:
     -   Group imports: `gc` (game client base), `inversify`, project-specific definitions/handlers/stores.
+    -   For components using real Cocos Creator classes, import them directly: `import { Button, Label, Toggle, sp } from "cc";`
 -   **`describe` Blocks**:
     -   Use a top-level `describe("ClassNameUnderTest", () => { ... });` for each test suite.
     -   Nest `describe` blocks for individual methods or related groups of functionality (e.g., `describe("methodName", () => { ... });` or `describe("feature group", () => { ... });`).
@@ -104,6 +104,24 @@ alwaysApply: true
 -   **`jest.mock`**:
 
     -   Use `jest.mock("path/to/module", () => ({ ... }));` at the top level of your test file (outside `describe` blocks) to mock entire modules.
+    -   **⚠️ Module Structure**: Be careful with mock structure. Don't wrap mocks in unnecessary `default` objects unless the module actually has a default export:
+
+        ```typescript
+        // ❌ Wrong - unnecessary default wrapper
+        jest.mock("@sg/game-client-base", () => ({
+            default: {
+                FormatUtils: { ... }
+            }
+        }));
+
+        // ✅ Correct - direct structure
+        jest.mock("@sg/game-client-base", () => ({
+            FormatUtils: { 
+                numberWithCommas: jest.fn((num: number) => num.toLocaleString())
+            }
+        }));
+        ```
+
     -   **External Dependencies (e.g., Stores, `gc` components)**:
 
         -   Mock them by providing a factory function that returns an object with mocked methods and properties.
@@ -167,10 +185,17 @@ alwaysApply: true
 -   **`jest.spyOn`**:
     -   Use `jest.spyOn(object, "methodName")` to spy on method calls on an _actual instance_ (or a mock instance whose methods are actual functions or `jest.fn()`).
     -   Commonly used on the instance under test or its mocked dependencies retrieved from the container.
+    -   **⚠️ Object Replacement Issue**: When objects get replaced during test execution, store references before the replacement:
         ```typescript
+        // ❌ Wrong - the object gets replaced
         const methodSpy = jest.spyOn(myClassInstance, "methodToWatch");
-        // ... perform action
-        expect(methodSpy).toHaveBeenCalled();
+        myClassInstance.someAction(); // This might replace the object
+        expect(myClassInstance.methodToWatch).toHaveBeenCalled(); // Fails!
+
+        // ✅ Correct - store reference before replacement
+        const originalMethod = myClassInstance.methodToWatch;
+        myClassInstance.someAction();
+        expect(originalMethod).toHaveBeenCalled();
         ```
 
 ---
@@ -183,6 +208,7 @@ alwaysApply: true
     -   Bind all necessary classes (SUT) and mock instances (dependencies) to the container.
     -   Get instances of the SUT and its dependencies from the container.
     -   Perform any manual mock assignments to the SUT instance if needed (see rule 2).
+    -   Initialize UI components with either real or mock instances based on requirements.
     -   If testing time-dependent logic, call `jest.useFakeTimers();`.
     -   Clear specific mock call counts if they might be invoked during the setup phase of other components: e.g., `mockRetryGameHandler.clearInterval.mockClear();`.
 -   **`afterEach`**:
@@ -216,7 +242,27 @@ alwaysApply: true
 
 ---
 
-### 7. ⚠️ Specifics from Examples
+### 7. 🎮 Cocos Creator Components
+
+-   **Real vs Mock Components**:
+    -   **Use Real Components** when they don't cause side effects and are properly mapped via `moduleNameMapper`:
+        ```typescript
+        // Import real components directly
+        import { Button, Label, Toggle, sp } from "cc";
+        
+        beforeEach(() => {
+            // Use real components - no need to mock
+            betControl.lblStake = new Label();
+            betControl.btnIncreaseStake = new Button();
+            betControl.toggleTurbo = new Toggle();
+        });
+        ```
+    -   **Mock Only When Necessary**: Only mock Cocos Creator components if they have complex behaviors or dependencies that interfere with tests.
+    -   **Don't Need to Mock**: `cc`, `observer`, and `inversify` are already handled by `moduleNameMapper` and setup files.
+
+---
+
+### 8. ⚠️ Specifics from Examples
 
 -   **Mocking Stores**:
     -   When mocking stores using `jest.fn().mockImplementation(() => ({ ... }))`, ensure all properties and getters accessed by the class under test are defined in the returned object.
@@ -229,7 +275,31 @@ alwaysApply: true
 
 ---
 
-### 8. TypeScript
+### 9. 🐛 Common Pitfalls & Solutions
+
+-   **"Cannot read properties of undefined"**:
+    -   Usually caused by incorrect mock structure. Check if you're wrapping mocks in unnecessary objects.
+    -   Verify import paths and module structure match your expectations.
+
+-   **Object Replacement During Tests**:
+    -   When mocks return new objects that replace existing ones, store references before calling the method:
+        ```typescript
+        const originalStopSpy = betControl.tweenFloatNumber.stop;
+        betControl.renderTotalWin(totalWin);
+        expect(originalStopSpy).toHaveBeenCalled();
+        ```
+
+-   **Over-Mocking**:
+    -   Don't mock everything. Use real components when they don't cause side effects.
+    -   Trust the `moduleNameMapper` configuration for basic Cocos Creator components.
+
+-   **Mock Call Count Issues**:
+    -   Always call `jest.clearAllMocks()` in `afterEach`.
+    -   Clear specific mocks in `beforeEach` if they're called during setup.
+
+---
+
+### 10. TypeScript
 
 -   Use `jest.Mocked<Type>` when working with mocked objects to get better type checking and autocompletion for mock-specific properties (`.mockReturnValue`, etc.).
     ```typescript
@@ -238,5 +308,3 @@ alwaysApply: true
     betControlStore = container.get(BetControlStore) as jest.Mocked<BetControlStore>;
     ```
 -   Be explicit with types for variables holding mock instances.
--   Don't need to mock anythings from "cc". They are mocked by "moduleNameMapper" with "cc": "<rootDir>/tests/cocos-testing/cc"
--   Don't need to mock anythings from "observer".
