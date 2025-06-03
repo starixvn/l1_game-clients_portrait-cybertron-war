@@ -36,6 +36,81 @@ alwaysApply: true
 
 ---
 
+### 1.5 🎯 Essential Mock Templates (Common Patterns)
+-   **Don't Need to Mock**: `cc`, `observer`, and `inversify` are already handled by `moduleNameMapper` and setup files.
+
+-   **Always Mock ALL Direct Dependencies**: Mock every single import to prevent loading real files:
+
+    ```typescript
+    // Mock game client base - COMPLETE structure
+    jest.mock("@sg/game-client-base", () => ({
+        FormatUtils: {
+            numberWithCommas: jest.fn((num: number) => num.toLocaleString()),
+        },
+        Audios: {  // Note: "Audios" not "Audio"
+            AudioHandler: class MockAudioHandler {},
+        },
+        Translator: {
+            getLanguageId: jest.fn().mockReturnValue("en"),
+        },
+        Shared: {
+            utils: {
+                StorageManager: {
+                    setPrefixKey: jest.fn(),
+                },
+            },
+        },
+        // Add other namespaces as needed
+    }));
+
+    // Mock ObserverComponent with ALL lifecycle methods
+    jest.mock("db://shared-components/shared/common-components/observer-component/scripts/observer-component", () => ({
+        ObserverComponent: class MockObserverComponent {
+            onLoad() {}
+            onDestroy() {}
+            start() {}
+            update() {}
+            node = require("cc").Node ? new (require("cc").Node)() : { on: jest.fn(), off: jest.fn() };
+        },
+    }));
+    ```
+
+-   **Component Setup Pattern**:
+
+    ```typescript
+    beforeEach(() => {
+        // Create component instance
+        component = new ComponentUnderTest();
+        
+        // Add missing methods that might be spied on
+        component.getComponent = jest.fn();
+        
+        // Set up UI properties
+        component.spine = mockSpine;
+        component.node = new Node();
+        
+        // Mock getComponent return values
+        jest.spyOn(component, "getComponent").mockReturnValue(mockButton);
+        
+        // Mock node methods
+        jest.spyOn(component.node, "on").mockImplementation(() => {});
+    });
+    ```
+
+-   **Spy on Parent Methods Safely**:
+
+    ```typescript
+    // ✅ Correct way to spy on parent class methods
+    const originalProto = Object.getPrototypeOf(Object.getPrototypeOf(instance));
+    const parentMethodSpy = jest.spyOn(originalProto, "parentMethod").mockImplementation(() => {});
+    
+    // Test code here...
+    
+    parentMethodSpy.mockRestore(); // Clean up
+    ```
+
+---
+
 ### 2. 🔧 Dependency Injection & Container
 
 -   **`inversify` Container**:
@@ -299,7 +374,98 @@ alwaysApply: true
 
 ---
 
-### 10. TypeScript
+### 10. 🐛 Common Pitfalls & Solutions
+
+-   **"Cannot read properties of undefined"**:
+    -   Usually caused by incorrect mock structure. Check if you're wrapping mocks in unnecessary objects.
+    -   Verify import paths and module structure match your expectations.
+
+-   **Object Replacement During Tests**:
+    -   When mocks return new objects that replace existing ones, store references before calling the method:
+        ```typescript
+        const originalStopSpy = betControl.tweenFloatNumber.stop;
+        betControl.renderTotalWin(totalWin);
+        expect(originalStopSpy).toHaveBeenCalled();
+        ```
+
+-   **Over-Mocking**:
+    -   Don't mock everything. Use real components when they don't cause side effects.
+    -   Trust the `moduleNameMapper` configuration for basic Cocos Creator components.
+
+-   **Mock Call Count Issues**:
+    -   Always call `jest.clearAllMocks()` in `afterEach`.
+    -   Clear specific mocks in `beforeEach` if they're called during setup.
+
+---
+
+### 11. ⚠️ Critical Anti-Patterns to Avoid
+
+-   **❌ Wrong Mock Structure**:
+    ```typescript
+    // Wrong - will cause "Cannot read properties of undefined"
+    jest.mock("@sg/game-client-base", () => ({
+        Audio: { AudioHandler: {} }  // Should be "Audios"
+    }));
+    ```
+
+-   **❌ Missing Constructor Functions**:
+    ```typescript
+    // Wrong - causes "X is not a constructor"
+    Node: { EventType: {} }
+    // Correct
+    Node: class MockNode { static EventType = {}; }
+    ```
+
+-   **❌ Spying on Non-existent Methods**:
+    ```typescript
+    // Wrong - add method first
+    jest.spyOn(component, "getComponent"); // Error if method doesn't exist
+    // Correct
+    component.getComponent = jest.fn();
+    jest.spyOn(component, "getComponent");
+    ```
+
+-   **❌ Wrong Prototype Manipulation**:
+    ```typescript
+    // Wrong - replaces entire prototype
+    Object.setPrototypeOf(instance, { method: jest.fn() });
+    // Correct - spy on parent prototype
+    const parentProto = Object.getPrototypeOf(Object.getPrototypeOf(instance));
+    jest.spyOn(parentProto, "method");
+    ```
+
+-   **❌ Wrong Key Codes**:
+    ```typescript
+    // Wrong - KeyCode.SPACE doesn't exist in cc
+    event = { keyCode: KeyCode.SPACE };
+    // Correct - check actual implementation
+    event = { keyCode: KeyCode.ENTER };
+    ```
+
+-   **❌ Wrong Event Target**:
+    ```typescript
+    // Wrong - check which object actually receives the event
+    expect(component.node.on).toHaveBeenCalled();
+    // Often correct - button component receives event
+    expect(component.button.node.on).toHaveBeenCalled();
+    ```
+
+---
+
+### 12. ✅ Quick Checklist Before Writing Tests
+
+1. **Mock ALL imports** - no real files should be loaded
+2. **Check namespace spelling** - `Audios` not `Audio`, etc.
+3. **Add constructors** - classes need `class MockClass {}` not `{}`
+4. **Add missing methods** - before spying: `component.method = jest.fn()`
+5. **Use correct event targets** - check if it's `node.on` or `button.node.on`
+6. **Verify key codes exist** - check actual KeyCode enum values
+7. **Mock parent methods** - add lifecycle methods to base class mocks
+8. **Clean up spies** - call `mockRestore()` after tests
+
+---
+
+### 13. TypeScript
 
 -   Use `jest.Mocked<Type>` when working with mocked objects to get better type checking and autocompletion for mock-specific properties (`.mockReturnValue`, etc.).
     ```typescript
