@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "QZMVIE83mnaqeTUQ7R2sdKYbj0M", "spine": "3.8.99" },
+"skeleton": { "hash": "VeDV6+Z2Sv1xLupQXw0kE4m+tNE", "spine": "3.8.99" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "button", "parent": "root" },
@@ -26,8 +26,7 @@
 	{ "name": "blink10", "parent": "blink-total", "x": -32.81, "y": -58.32, "scaleX": 0.6, "scaleY": 0.6 },
 	{ "name": "spin-extra-1", "parent": "button" },
 	{ "name": "spin-extra", "parent": "button", "rotation": -0.01 },
-	{ "name": "spin-button-base-outer", "parent": "spin-button" },
-	{ "name": "logo", "parent": "button" }
+	{ "name": "spin-button-base-outer", "parent": "spin-button" }
 ],
 "slots": [
 	{ "name": "hover", "bone": "hover" },
@@ -54,9 +53,7 @@
 	{ "name": "path-blink2", "bone": "button" },
 	{ "name": "arrow", "bone": "arrow" },
 	{ "name": "arrow-spin", "bone": "arrow" },
-	{ "name": "black-72-disable", "bone": "disable-black-overlay" },
-	{ "name": "spin-logo", "bone": "logo" },
-	{ "name": "spin-logo-glitch", "bone": "logo" }
+	{ "name": "black-72-disable", "bone": "disable-black-overlay" }
 ],
 "path": [
 	{
@@ -159,14 +156,8 @@
 			"spin-button-base-bg2": {
 				"spin-button-base-bg": { "width": 208, "height": 208 }
 			},
-			"spin-logo": {
-				"spin-logo": { "x": 0.5, "width": 208, "height": 208 }
-			},
-			"spin-logo-glitch": {
-				"spin-logo": { "x": 0.5, "width": 208, "height": 208 }
-			},
 			"spin_magic": {
-				"spin_magic": { "width": 208, "height": 208 }
+				"spin-logo": { "width": 208, "height": 208 }
 			}
 		}
 	}
@@ -361,11 +352,6 @@
 				],
 				"attachment": [
 					{ "name": "spin-button-base-bg" }
-				]
-			},
-			"spin-logo": {
-				"attachment": [
-					{ "name": "spin-logo" }
 				]
 			}
 		},
@@ -657,19 +643,6 @@
 					{ "time": 0.2333, "name": "spin-button-base-bg" }
 				]
 			},
-			"spin-logo": {
-				"attachment": [
-					{ "name": "spin-logo" }
-				]
-			},
-			"spin-logo-glitch": {
-				"color": [
-					{ "color": "ff860000" }
-				],
-				"attachment": [
-					{ "name": "spin-logo" }
-				]
-			},
 			"spin_magic": {
 				"color": [
 					{ "color": "ffffffff" },
@@ -699,12 +672,6 @@
 					{ "time": 0.1, "x": 1.01, "y": 1.01 },
 					{ "time": 0.2333, "x": 0.99, "y": 0.99 },
 					{ "time": 0.3333 }
-				]
-			},
-			"logo": {
-				"scale": [
-					{},
-					{ "time": 0.1333, "x": 1.1, "y": 1.1 }
 				]
 			}
 		}

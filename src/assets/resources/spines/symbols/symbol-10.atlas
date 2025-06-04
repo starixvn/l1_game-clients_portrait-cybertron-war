@@ -1,139 +1,62 @@
 
-exportAtlas.png
-size: 2048,2048
+exportAtlas.webp
+size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-border
+golden tree
   rotate: false
-  xy: 915, 1871
-  size: 152, 152
-  orig: 152, 152
+  xy: 575, 604
+  size: 137, 126
+  orig: 137, 126
   offset: 0, 0
   index: -1
-border-blur
+light1 copy 10
   rotate: false
-  xy: 1786, 1144
-  size: 152, 152
-  orig: 152, 152
+  xy: 214, 4
+  size: 15, 15
+  orig: 15, 15
   offset: 0, 0
   index: -1
-effect/1
-  rotate: true
-  xy: 2, 5
-  size: 1948, 1933
-  orig: 1948, 1933
+light1 copy 11
+  rotate: false
+  xy: 28, 4
+  size: 15, 15
+  orig: 15, 15
   offset: 0, 0
   index: -1
-effect/10
+light1 copy 5
   rotate: false
-  xy: 155, 923
-  size: 307, 150
-  orig: 307, 150
+  xy: 337, 335
+  size: 35, 36
+  orig: 35, 36
   offset: 0, 0
   index: -1
-effect/11
+light1 copy 6
   rotate: false
-  xy: 2, 2
-  size: 1937, 1995
-  orig: 1937, 1995
+  xy: 773, 4
+  size: 35, 36
+  orig: 35, 36
   offset: 0, 0
   index: -1
-effect/12
+light1 copy 7
   rotate: false
-  xy: 2, 2
-  size: 1937, 2025
-  orig: 1937, 2025
+  xy: 4, 790
+  size: 24, 25
+  orig: 24, 25
   offset: 0, 0
   index: -1
-effect/13
+light1 copy 8
   rotate: false
-  xy: 2, 2
-  size: 1836, 1926
-  orig: 1836, 1926
+  xy: 309, 839
+  size: 24, 25
+  orig: 24, 25
   offset: 0, 0
   index: -1
-effect/14
+light1 copy 9
   rotate: false
-  xy: 270, 70
-  size: 1479, 1773
-  orig: 1479, 1773
-  offset: 0, 0
-  index: -1
-effect/2
-  rotate: false
-  xy: 323, 310
-  size: 1597, 1716
-  orig: 1597, 1716
-  offset: 0, 0
-  index: -1
-effect/3
-  rotate: false
-  xy: 618, 771
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-effect/4
-  rotate: false
-  xy: 772, 774
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-effect/5
-  rotate: false
-  xy: 923, 158
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-effect/6
-  rotate: false
-  xy: 926, 312
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-effect/7
-  rotate: false
-  xy: 2, 155
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-effect/8
-  rotate: false
-  xy: 156, 2
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-effect/9
-  rotate: false
-  xy: 2, 309
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-symbol
-  rotate: false
-  xy: 1080, 622
-  size: 146, 146
-  orig: 146, 146
-  offset: 0, 0
-  index: -1
-symbol-blank
-  rotate: false
-  xy: 618, 464
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-symbol-blur
-  rotate: false
-  xy: 309, 1229
-  size: 146, 146
-  orig: 146, 146
+  xy: 540, 4
+  size: 24, 25
+  orig: 24, 25
   offset: 0, 0
   index: -1

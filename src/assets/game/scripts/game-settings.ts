@@ -1,6 +1,6 @@
-export const GAME_NAME = "OnePiece";
+export const GAME_NAME = "FourGuardians";
 export const settings = {
-    id: 74,
+    id: 29,
     name: GAME_NAME,
     observerNamespace: GAME_NAME,
     tolgeeNamespaces: [GAME_NAME, "Classicslot"],
