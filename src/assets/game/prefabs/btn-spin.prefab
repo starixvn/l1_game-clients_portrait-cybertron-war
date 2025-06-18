@@ -180,8 +180,8 @@
     "defaultAnimation": "idle",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
-    "_preCacheMode": 1,
-    "_cacheMode": 1,
+    "_preCacheMode": 0,
+    "_cacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -319,8 +319,8 @@
     "defaultAnimation": "disable",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
-    "_preCacheMode": 1,
-    "_cacheMode": 1,
+    "_preCacheMode": 0,
+    "_cacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -560,6 +560,7 @@
       "__id__": 0
     },
     "fileId": "d5jpiysT1DCqLA0Gdoc/cx",
+    "instance": null,
     "targetOverrides": null
   }
 ]
