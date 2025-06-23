@@ -1,14 +1,5 @@
 {
-"skeleton": {
-	"hash": "o9LevBC4ykROzpZc23VdsoViPDs",
-	"spine": "3.8.99",
-	"x": -101,
-	"y": -86,
-	"width": 202,
-	"height": 178.59,
-	"images": "./images/",
-	"audio": "D:/L5/DJClub/Graphic/replace-assets/resources/spine/bonus-popup"
-},
+"skeleton": { "hash": "gdna8gJasE9aqy0GlKNYFkEwrSg", "spine": "3.8.99" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "character", "parent": "root" },
@@ -24,11 +15,10 @@
 ],
 "slots": [
 	{ "name": "ball", "bone": "ball", "attachment": "disco-ball-hidden" },
-	{ "name": "disco-ball-effect", "bone": "disco-ball-effect", "attachment": "disco-ball-effect", "blend": "additive" },
 	{ "name": "ball2", "bone": "ball2", "attachment": "disco-ball-open" },
+	{ "name": "disco-ball-effect", "bone": "disco-ball-effect", "attachment": "frameeffect-1", "blend": "additive" },
 	{ "name": "value-background", "bone": "value-background", "attachment": "value-background" },
-	{ "name": "value", "bone": "value" },
-	{ "name": "sequese", "bone": "VFX-genaral", "blend": "additive" }
+	{ "name": "value", "bone": "value" }
 ],
 "skins": [
 	{
@@ -38,24 +28,10 @@
 				"disco-ball-hidden": { "x": 0.5, "y": 0.5, "width": 172, "height": 173 }
 			},
 			"ball2": {
-				"disco-ball-open": { "y": 11.65, "width": 160, "height": 160 }
+				"disco-ball-open": { "width": 172, "height": 173 }
 			},
 			"disco-ball-effect": {
-				"disco-ball-effect": { "width": 168, "height": 170 }
-			},
-			"sequese": {
-				"symbol/old/23_00002": { "width": 34, "height": 22 },
-				"symbol/old/23_00004": { "width": 42, "height": 36 },
-				"symbol/old/23_00005": { "x": 0.5, "width": 55, "height": 42 },
-				"symbol/old/23_00006": { "x": 0.5, "width": 73, "height": 54 },
-				"symbol/old/23_00007": { "x": 0.5, "width": 79, "height": 72 },
-				"symbol/old/23_00008": { "y": 0.5, "width": 84, "height": 79 },
-				"symbol/old/23_00009": { "x": 0.5, "y": 0.5, "width": 91, "height": 81 },
-				"symbol/old/23_00010": { "y": 0.5, "width": 88, "height": 81 },
-				"symbol/old/23_00011": { "x": 0.5, "y": 0.5, "width": 87, "height": 77 },
-				"symbol/old/23_00012": { "x": 0.5, "y": 0.5, "width": 87, "height": 73 },
-				"symbol/old/23_00015": { "y": 0.5, "width": 78, "height": 71 },
-				"symbol/old/23_00017": { "y": 0.5, "width": 78, "height": 71 }
+				"frameeffect-1": { "width": 172, "height": 173 }
 			},
 			"value-background": {
 				"value-background": { "width": 202, "height": 50 }
@@ -135,7 +111,7 @@
 			"ball": {
 				"color": [
 					{ "color": "ffffffff" },
-					{ "time": 0.4667, "color": "3f2966ff" }
+					{ "time": 0.4667, "color": "3f296600" }
 				]
 			},
 			"ball2": {
@@ -151,29 +127,6 @@
 					{ "time": 0.3333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
 					{ "time": 0.5, "color": "dfff0080", "curve": 0.25, "c3": 0.75 },
 					{ "time": 0.6, "color": "ffffff00" }
-				]
-			},
-			"sequese": {
-				"color": [
-					{ "color": "ffffffff" },
-					{ "time": 0.3, "color": "8000ffff" },
-					{ "time": 0.8333, "color": "ff004fff" },
-					{ "time": 1.1, "color": "ffffffff" }
-				],
-				"attachment": [
-					{ "time": 0.3, "name": "symbol/old/23_00002" },
-					{ "time": 0.3667, "name": "symbol/old/23_00004" },
-					{ "time": 0.4333, "name": "symbol/old/23_00005" },
-					{ "time": 0.5, "name": "symbol/old/23_00006" },
-					{ "time": 0.5667, "name": "symbol/old/23_00007" },
-					{ "time": 0.6333, "name": "symbol/old/23_00008" },
-					{ "time": 0.7, "name": "symbol/old/23_00009" },
-					{ "time": 0.7667, "name": "symbol/old/23_00010" },
-					{ "time": 0.8333, "name": "symbol/old/23_00011" },
-					{ "time": 0.9, "name": "symbol/old/23_00012" },
-					{ "time": 0.9667, "name": "symbol/old/23_00015" },
-					{ "time": 1.0333, "name": "symbol/old/23_00017" },
-					{ "time": 1.1, "name": null }
 				]
 			},
 			"value": {

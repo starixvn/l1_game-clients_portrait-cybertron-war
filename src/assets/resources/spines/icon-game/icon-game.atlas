@@ -1,174 +1,55 @@
 
-icon-game.png
-size: 1801,417
+icon-game.webp
+size: 365,841
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-3d
+3D_light
   rotate: true
-  xy: 1726, 12
-  size: 196, 53
-  orig: 196, 156
-  offset: 0, 103
+  xy: 200, 144
+  size: 195, 155
+  orig: 212, 200
+  offset: 10, 45
   index: -1
-bg-blank
-  rotate: true
-  xy: 2, 2
+bg
+  rotate: false
+  xy: 2, 178
   size: 196, 429
-  orig: 196, 429
-  offset: 0, 0
+  orig: 200, 434
+  offset: 2, 3
   index: -1
-domdom
+lan2
   rotate: true
-  xy: 1702, 210
-  size: 134, 74
-  orig: 134, 74
+  xy: 200, 474
+  size: 133, 163
+  orig: 133, 164
   offset: 0, 0
   index: -1
-fire/f00
-  rotate: false
-  xy: 2, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-fire/f01
-  rotate: false
-  xy: 102, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-fire/f02
-  rotate: false
-  xy: 202, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-fire/f03
-  rotate: false
-  xy: 302, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-fire/f04
-  rotate: false
-  xy: 402, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-fire/f05
-  rotate: false
-  xy: 502, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-main1
+phung2
   rotate: true
-  xy: 433, 2
-  size: 196, 429
-  orig: 196, 429
-  offset: 0, 0
+  xy: 2, 22
+  size: 154, 182
+  orig: 173, 199
+  offset: 12, 17
   index: -1
-main2
+rong2
   rotate: true
-  xy: 864, 2
-  size: 196, 429
-  orig: 196, 429
-  offset: 0, 0
+  xy: 186, 2
+  size: 140, 170
+  orig: 146, 177
+  offset: 4, 7
   index: -1
-punch/1
-  rotate: false
-  xy: 602, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punch/10
-  rotate: false
-  xy: 1502, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punch/11
-  rotate: false
-  xy: 1602, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punch/2
-  rotate: false
-  xy: 702, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punch/3
-  rotate: false
-  xy: 802, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punch/4
-  rotate: false
-  xy: 902, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punch/5
-  rotate: false
-  xy: 1002, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punch/6
-  rotate: false
-  xy: 1102, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punch/7
-  rotate: false
-  xy: 1202, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punch/8
-  rotate: false
-  xy: 1302, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punch/9
-  rotate: false
-  xy: 1402, 200
-  size: 98, 215
-  orig: 98, 215
-  offset: 0, 0
-  index: -1
-punchie
-  rotate: false
-  xy: 1726, 346
-  size: 73, 69
-  orig: 73, 69
-  offset: 0, 0
-  index: -1
-punchs
+rua2
   rotate: true
-  xy: 1295, 2
-  size: 196, 429
-  orig: 196, 429
-  offset: 0, 0
+  xy: 200, 341
+  size: 131, 156
+  orig: 143, 188
+  offset: 1, 28
+  index: -1
+samset
+  rotate: true
+  xy: 2, 609
+  size: 230, 344
+  orig: 232, 396
+  offset: 2, 52
   index: -1
