@@ -1,192 +1,91 @@
 {
-    "click": {
-        "bundle": "resources",
-        "path": "click"
-    },
-    "bgm": {
-        "bundle": "resources",
-        "type": "music",
-        "isMusicGame": true,
-        "isLazyLoad": true,
-        "path": "bgm"
-    },
-    "bigwin": {
-        "bundle": "resources",
-        "path": "bigwin"
-    },
-    "normalwin": {
-        "bundle": "resources",
-        "path": "normalwin"
-    },
-    "btn-cashout": {
-        "bundle": "resources",
-        "path": "btn-cashout"
-    },
-    "btn-start": {
-        "bundle": "resources",
-        "path": "btn-start"
-    },
-    "change-axe": {
-        "bundle": "resources",
-        "path": "change-axe"
-    },
-    "countdown_cashout": {
-        "bundle": "resources",
-        "path": "countdown_cashout",
-        "isLazyLoad": true
-    },
-    "crashed": {
-        "bundle": "resources",
-        "path": "crashed"
-    },
-    "hit_lv1_01": {
-        "bundle": "resources",
-        "path": "hit_lv1_01"
-    },
-    "hit_lv1_02": {
-        "bundle": "resources",
-        "path": "hit_lv1_02"
-    },
-    "hit_lv1_03": {
-        "bundle": "resources",
-        "path": "hit_lv1_03"
-    },
-    "hit_lv1_04": {
-        "bundle": "resources",
-        "path": "hit_lv1_04"
-    },
-    "hit_lv1_05": {
-        "bundle": "resources",
-        "path": "hit_lv1_05"
-    },
-    "hit_lv2_01": {
-        "bundle": "resources",
-        "path": "hit_lv2_01"
-    },
-    "hit_lv2_02": {
-        "bundle": "resources",
-        "path": "hit_lv2_02"
-    },
-    "hit_lv2_03": {
-        "bundle": "resources",
-        "path": "hit_lv2_03"
-    },
-    "hit_lv2_04": {
-        "bundle": "resources",
-        "path": "hit_lv2_04"
-    },
-    "hit_lv2_05": {
-        "bundle": "resources",
-        "path": "hit_lv2_05"
-    },
-    "hit_lv3_01": {
-        "bundle": "resources",
-        "path": "hit_lv3_01",
-        "isLazyLoad": true
-    },
-    "hit_lv3_02": {
-        "bundle": "resources",
-        "path": "hit_lv3_02",
-        "isLazyLoad": true
-    },
-    "hit_lv3_03": {
-        "bundle": "resources",
-        "path": "hit_lv3_03",
-        "isLazyLoad": true
-    },
-    "hit_lv3_04": {
-        "bundle": "resources",
-        "path": "hit_lv3_04",
-        "isLazyLoad": true
-    },
-    "hit_lv3_05": {
-        "bundle": "resources",
-        "path": "hit_lv3_05",
-        "isLazyLoad": true
-    },
-    "hit_lv4_01": {
-        "bundle": "resources",
-        "path": "hit_lv4_01",
-        "isLazyLoad": true
-    },
-    "hit_lv4_02": {
-        "bundle": "resources",
-        "path": "hit_lv4_02",
-        "isLazyLoad": true
-    },
-    "hit_lv4_03": {
-        "bundle": "resources",
-        "path": "hit_lv4_03",
-        "isLazyLoad": true
-    },
-    "hit_lv4_04": {
-        "bundle": "resources",
-        "path": "hit_lv4_04",
-        "isLazyLoad": true
-    },
-    "hit_lv4_05": {
-        "bundle": "resources",
-        "path": "hit_lv4_05",
-        "isLazyLoad": true
-    },
     "big-win": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "bonus-item": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "bonus-popup": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "bonus-total": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "bonus": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
+    "click": {
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "freespin": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "jackpot-hit": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "jackpot-item": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "jackpot-win": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "reel-stop": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "spin-button": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "spinning-normal": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "spinning-turbo": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "symbol-win": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "transition": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "win": {
-        "bundle": "resources"
+        "bundle": "resources",
+        "isLazyLoad": true
     },
     "song1": {
         "bundle": "resources",
-        "path": "music/song1"
+        "path": "music/song1",
+        "type": "music",
+        "isMusicGame": true,
+        "isLazyLoad": true
     },
     "song2": {
         "bundle": "resources",
-        "path": "music/song2"
+        "path": "music/song2",
+        "type": "music",
+        "isMusicGame": true,
+        "isLazyLoad": true
     },
     "song3": {
         "bundle": "resources",
-        "path": "music/song3"
+        "path": "music/song3",
+        "type": "music",
+        "isMusicGame": true,
+        "isLazyLoad": true
     }
 }
