@@ -645,7 +645,7 @@
     "component": "",
     "_componentId": "c841aGLHetNE7x9Awo9bTVi",
     "handler": "closeStakeSelectorSilently",
-    "customEventData": "false"
+    "customEventData": ""
   },
   {
     "__type__": "cc.Node",
