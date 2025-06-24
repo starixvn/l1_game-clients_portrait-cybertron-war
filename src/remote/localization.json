@@ -1,18 +1,11 @@
 {
-    "lobbyNames": {
-        "en": "ONE PIECE",
-        "id": "ONE PIECE",
-        "th": "วันพีซ",
-        "vi": "ĐẢO HẢI TẶC",
-        "zh_cn": "海贼王",
-        "zh_tw": "海賊王"
-    },
+    "lobbyNames": {},
     "gameNames": {
-        "en": "Pirate King",
-        "id": "Pirate King",
-        "th": "ไพเรทคิงส์",
-        "vi": "VUA HẢI TẶC",
-        "zh_cn": "海盗王",
-        "zh_tw": "海盜王"
+        "en": "Four Guardians",
+        "id": "Empat Penjaga",
+        "th": "โฟร์ การ์เดียนส์",
+        "vi": "Long Lân Quy Phụng",
+        "zh_cn": "四大监管者",
+        "zh_tw": "四大監管者"
     }
 }

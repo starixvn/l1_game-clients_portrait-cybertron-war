@@ -19,8 +19,14 @@ export const languages = {
         "bet_limit": "Bet Limit",
         "bet_option_even": "Even",
         "bet_option_odd": "Odd",
+        "bet_type": "Bet Type",
         "button_change": "Change",
         "button_confirm": "Confirm",
+        "cant_double_hand": "\"Double\" option is not available for this hand.",
+        "cant_hit": "Cannot draw more cards",
+        "cant_split_child_hand": "\"Split\" option is not available for this hand.",
+        "cant_split_hand": "\"Split\" option is not available for this hand.",
+        "cards_not_equal": "Cards are not equal value.",
         "character_name": "Nickname",
         "copy_failed_md5": "Copy function is temporarily unavailable.",
         "copy_successfully_md5": "Copy successful!",
@@ -38,11 +44,14 @@ export const languages = {
         "game_category_ph_6": "Lotto",
         "game_excluded": "%{gameName}\n\nYour account is no longer allowed to play this game. Please try other games.",
         "game_guide": "Game Guides",
+        "hand_already_splitted": "This hand has already splitted.",
+        "hand_is_stand": "Ending Hand",
         "hand_not_active": "Inactive Hand",
         "hot": "Hot",
         "invalid_bet": "Invalid Bet",
         "invalid_deal_hands": "The number of Hands is invalid",
         "invalid_free_spin": "Invalid Free Spin ",
+        "invalid_hand_id": "Invalid Hand ID",
         "invalid_position": "Invalid Position",
         "invalid_stake_level": "Invalid Stake level",
         "join_game": "Join Game",
@@ -60,7 +69,7 @@ export const languages = {
         "message_account_notexist_place_bet": "Game %{gameName} (#%{gameRoundId})\n\nFailed to place bet! An error has occurred. Please contact CSD for details, thank you. (%{errorCode})",
         "message_account_signout": "The account has been signed out because someone else logged into this account.",
         "message_account_suspended": "Game %{gameName} (#%{gameRoundId})\n\nFailed to place bet! Account has been suspended. Please contact your upline for details, thank you. (%{errorCode})",
-        "message_balanced_betting_pool": "Balanced Betting Pool.",
+        "message_balanced_betting_pool": "Balanced Betting Pool",
         "message_bet_limit_change": "Your bet limit has just been changed.",
         "message_cannot_bet": "Cannot bet at the moment. Please wait for a few seconds.",
         "message_close_account": "Account has been closed. Your session will expire after 10 seconds, please contact CSD for details. (%{errorCode})",
@@ -246,9 +255,8 @@ export const languages = {
         "turbo": "Turbo",
         "turbo_mode": "Turbo Mode"
     },
-    "OnePiece": {
-        "game_icon_name": "ONE PIECE",
-        "game_name": "Pirate King"
+    "FourGuardians": {
+        "game_name": "Four Guardians"
     }
 };
 
