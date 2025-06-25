@@ -255,8 +255,9 @@ export const languages = {
         "turbo": "Turbo",
         "turbo_mode": "Turbo Mode"
     },
-    "FourGuardians": {
-        "game_name": "Four Guardians"
+    "SummerHeat": {
+        "game_icon_name": "Summer Heat",
+        "game_name": "Summer Heat"
     }
 };
 

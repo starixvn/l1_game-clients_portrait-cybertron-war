@@ -255,8 +255,9 @@ export const languages = {
         "turbo": "涡轮",
         "turbo_mode": "涡轮模式"
     },
-    "FourGuardians": {
-        "game_name": "四大监管者"
+    "SummerHeat": {
+        "game_icon_name": "夏日炎炎",
+        "game_name": "夏日炎炎"
     }
 };
 

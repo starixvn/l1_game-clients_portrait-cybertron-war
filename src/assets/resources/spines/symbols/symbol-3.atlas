@@ -1,76 +1,202 @@
 
 exportAtlas.webp
-size: 1024,1024
+size: 2048,2048
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-bongbong
+bubble/bubble00
   rotate: false
-  xy: 184, 833
-  size: 34, 33
-  orig: 34, 33
+  xy: 7, 1604
+  size: 72, 73
+  orig: 72, 73
   offset: 0, 0
   index: -1
-bongbong copy
+bubble/bubble01
   rotate: false
-  xy: 446, 532
-  size: 21, 22
-  orig: 21, 22
+  xy: 1523, 1582
+  size: 72, 73
+  orig: 72, 73
   offset: 0, 0
   index: -1
-bongbong copy 2
+bubble/bubble02
   rotate: false
-  xy: 2, 677
-  size: 21, 22
-  orig: 21, 22
+  xy: 1441, 1570
+  size: 72, 73
+  orig: 72, 73
   offset: 0, 0
   index: -1
-bongbong copy 3
+bubble/bubble03
   rotate: false
-  xy: 140, 654
-  size: 15, 15
-  orig: 15, 15
+  xy: 1212, 1580
+  size: 72, 73
+  orig: 72, 73
   offset: 0, 0
   index: -1
-bongbong copy 4
+bubble/bubble04
   rotate: false
-  xy: 176, 510
-  size: 15, 15
-  orig: 15, 15
+  xy: 1364, 1570
+  size: 72, 73
+  orig: 72, 73
   offset: 0, 0
   index: -1
-chansauto
-  rotate: true
-  xy: 798, 312
-  size: 51, 33
-  orig: 51, 33
+bubble/bubble05
+  rotate: false
+  xy: 362, 1577
+  size: 72, 73
+  orig: 72, 73
   offset: 0, 0
   index: -1
-chantruoc
-  rotate: true
-  xy: 7, 879
-  size: 38, 20
-  orig: 38, 20
+bubble/bubble06
+  rotate: false
+  xy: 272, 1564
+  size: 72, 73
+  orig: 72, 73
   offset: 0, 0
   index: -1
-chantruoc2
-  rotate: true
-  xy: 526, 153
-  size: 48, 35
-  orig: 48, 35
+bubble/bubble07
+  rotate: false
+  xy: 89, 1582
+  size: 72, 73
+  orig: 72, 73
   offset: 0, 0
   index: -1
-chantruocsau2
-  rotate: true
-  xy: 810, 370
-  size: 49, 21
-  orig: 49, 21
+bubble/bubble08
+  rotate: false
+  xy: 1562, 1505
+  size: 72, 73
+  orig: 72, 73
   offset: 0, 0
   index: -1
-than
-  rotate: true
-  xy: 655, 479
-  size: 140, 86
-  orig: 140, 86
+bubble/bubble09
+  rotate: false
+  xy: 1584, 1426
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble10
+  rotate: false
+  xy: 1580, 1028
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble11
+  rotate: false
+  xy: 1568, 952
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble12
+  rotate: false
+  xy: 1579, 600
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble13
+  rotate: false
+  xy: 1578, 235
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble14
+  rotate: false
+  xy: 486, 1425
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble15
+  rotate: false
+  xy: 1586, 3
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble16
+  rotate: false
+  xy: 1561, 873
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble17
+  rotate: false
+  xy: 1561, 789
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble18
+  rotate: false
+  xy: 1558, 678
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble19
+  rotate: false
+  xy: 1539, 333
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble20
+  rotate: false
+  xy: 1561, 158
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble21
+  rotate: false
+  xy: 1136, 1518
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble22
+  rotate: false
+  xy: 1288, 1526
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble23
+  rotate: false
+  xy: 1061, 1524
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble24
+  rotate: false
+  xy: 985, 1514
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+bubble/bubble25
+  rotate: false
+  xy: 903, 1514
+  size: 72, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+symbol
+  rotate: false
+  xy: 160, 884
+  size: 98, 120
+  orig: 98, 120
+  offset: 0, 0
+  index: -1
+symbol - Copy
+  rotate: false
+  xy: 245, 1250
+  size: 91, 106
+  orig: 91, 106
   offset: 0, 0
   index: -1

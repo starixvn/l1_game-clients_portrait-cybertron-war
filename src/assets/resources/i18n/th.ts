@@ -255,8 +255,9 @@ export const languages = {
         "turbo": "เทอร์โบ",
         "turbo_mode": "โหมด Turbo"
     },
-    "FourGuardians": {
-        "game_name": "โฟร์ การ์เดียนส์"
+    "SummerHeat": {
+        "game_icon_name": "ซัมเมอร์สุดร้อน",
+        "game_name": "ซัมเมอร์สุดร้อน"
     }
 };
 

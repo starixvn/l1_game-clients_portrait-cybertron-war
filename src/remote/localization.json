@@ -1,11 +1,18 @@
 {
-    "lobbyNames": {},
+    "lobbyNames": {
+        "en": "Summer Heat",
+        "id": "Summer Heat",
+        "th": "ซัมเมอร์สุดร้อน",
+        "vi": "Mùa Hè Nóng Bỏng",
+        "zh_cn": "夏日炎炎",
+        "zh_tw": "夏日炎炎"
+    },
     "gameNames": {
-        "en": "Four Guardians",
-        "id": "Empat Penjaga",
-        "th": "โฟร์ การ์เดียนส์",
-        "vi": "Long Lân Quy Phụng",
-        "zh_cn": "四大监管者",
-        "zh_tw": "四大監管者"
+        "en": "Summer Heat",
+        "id": "Summer Heat",
+        "th": "ซัมเมอร์สุดร้อน",
+        "vi": "Mùa Hè Nóng Bỏng",
+        "zh_cn": "夏日炎炎",
+        "zh_tw": "夏日炎炎"
     }
 }

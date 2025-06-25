@@ -255,8 +255,9 @@ export const languages = {
         "turbo": "Turbo",
         "turbo_mode": "Mode Turbo"
     },
-    "FourGuardians": {
-        "game_name": "Empat Penjaga"
+    "SummerHeat": {
+        "game_icon_name": "Summer Heat",
+        "game_name": "Summer Heat"
     }
 };
 

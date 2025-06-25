@@ -255,8 +255,9 @@ export const languages = {
         "turbo": "Siêu Tốc",
         "turbo_mode": "Siêu Tốc"
     },
-    "FourGuardians": {
-        "game_name": "Long Lân Quy Phụng"
+    "SummerHeat": {
+        "game_icon_name": "Mùa Hè Nóng Bỏng",
+        "game_name": "Mùa Hè Nóng Bỏng"
     }
 };
 
