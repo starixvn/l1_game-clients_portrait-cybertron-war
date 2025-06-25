@@ -4,6 +4,7 @@ import { LogStore } from "db://shared-components/game/scripts/stores/log-store";
 import { sharedContainer } from "../../scripts/shared-container";
 import { settings } from "./game-settings";
 import { NullBetResponseHandlers } from "./handlers/null-bet-response-handlers";
+import { NullErrorHandlers } from "./handlers/null-errors-handlers";
 import { NullRoundTimeHandlers } from "./handlers/null-round-time-handlers";
 
 export const containerOptions: gc.IContainerOptions = {
@@ -12,6 +13,7 @@ export const containerOptions: gc.IContainerOptions = {
         container.bind(gc.GameConfigs.GameSetting).toConstantValue(settings);
         container.bind(LogStore).to(LogStore);
 
+        container.bind(gc.Error.ErrorHandlers).to(NullErrorHandlers);
         container.bind(gc.Rounds.RoundTimeHandlers).to(NullRoundTimeHandlers);
         container.bind(gc.Bet.BetResponseHandlers).to(NullBetResponseHandlers);
     },
