@@ -813,7 +813,7 @@
             <key>size</key>
             <string>{1024,2048}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:cebb7d58d39f5ea67a318ffdc8e5f20c:e5b75d865b7a1bc715fae40a6d96a856:3c13b940d52c931d845dbb5c93af3d66$</string>
+            <string>$TexturePacker:SmartUpdate:feebbc8595fe3ada6a465e62cd418104:e5b75d865b7a1bc715fae40a6d96a856:3c13b940d52c931d845dbb5c93af3d66$</string>
             <key>textureFileName</key>
             <string>standard-slot-game.webp</string>
         </dict>

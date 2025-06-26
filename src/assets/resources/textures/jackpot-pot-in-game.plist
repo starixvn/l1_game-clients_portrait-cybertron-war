@@ -139,21 +139,6 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>txt-jackpot_vi.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,0}</string>
-                <key>spriteSize</key>
-                <string>{176,81}</string>
-                <key>spriteSourceSize</key>
-                <string>{176,81}</string>
-                <key>textureRect</key>
-                <string>{{238,3},{176,81}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
             <key>txt-jackpot_en.png</key>
             <dict>
                 <key>aliases</key>
@@ -198,6 +183,21 @@
                 <string>{{416,3},{176,72}}</string>
                 <key>textureRotated</key>
                 <true/>
+            </dict>
+            <key>txt-jackpot_vi.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{176,81}</string>
+                <key>spriteSourceSize</key>
+                <string>{176,81}</string>
+                <key>textureRect</key>
+                <string>{{238,3},{176,81}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>txt-jackpot_zh_cn.png</key>
             <dict>
@@ -273,7 +273,7 @@
             <key>size</key>
             <string>{512,512}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:6ba754b7655f7f7057c2a28c4a80692c:9356763a50c491dad581f9b39d1cd8a4:3b436612f28bd242a5e5d3d1cd4cc73a$</string>
+            <string>$TexturePacker:SmartUpdate:39bdd0f376afb4cda28b2932d2cfed8a:409989f592cdc9dadec8dc602dae4615:3b436612f28bd242a5e5d3d1cd4cc73a$</string>
             <key>textureFileName</key>
             <string>jackpot-pot-in-game.webp</string>
         </dict>
