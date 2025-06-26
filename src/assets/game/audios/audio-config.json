@@ -63,6 +63,10 @@
         "bundle": "resources",
         "isLazyLoad": true
     },
+    "tap-symbol": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
     "win": {
         "bundle": "resources",
         "isLazyLoad": true
