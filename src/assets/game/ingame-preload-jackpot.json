@@ -1,6 +1,6 @@
 {
     "others": {
-        "resources": ["prefabs/jackpot-game"]
+        "classic-slot-bundle": ["prefabs/jackpot-game"]
     },
     "localized": {
         "resources": {
