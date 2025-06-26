@@ -11,7 +11,11 @@
             "spines/symbols/symbol-7",
             "spines/symbols/symbol-8",
             "spines/symbols/symbol-9",
-            "spines/symbols/winning-animation"
+            "spines/decor/BG",
+            "spines/decor/girl-1",
+            "spines/decor/girl-2",
+            "spines/decor/girl-3",
+            "spines/decor/girl-4"
         ]
     },
     "localized": {
