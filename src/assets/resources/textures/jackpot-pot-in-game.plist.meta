@@ -467,12 +467,12 @@
       ],
       "subMetas": {}
     },
-    "2906b": {
+    "8805b": {
       "importer": "sprite-frame",
-      "uuid": "7c272c39-b9ea-4f8d-992e-8177626874fc@2906b",
+      "uuid": "7c272c39-b9ea-4f8d-992e-8177626874fc@8805b",
       "displayName": "",
-      "id": "2906b",
-      "name": "txt-jackpot",
+      "id": "8805b",
+      "name": "txt-jackpot_vi",
       "userData": {
         "trimThreshold": 1,
         "rotated": false,
