@@ -73,19 +73,5 @@
         "type": "music",
         "isMusicGame": true,
         "isLazyLoad": true
-    },
-    "song2": {
-        "bundle": "resources",
-        "path": "music/song2",
-        "type": "music",
-        "isMusicGame": true,
-        "isLazyLoad": true
-    },
-    "song3": {
-        "bundle": "resources",
-        "path": "music/song3",
-        "type": "music",
-        "isMusicGame": true,
-        "isLazyLoad": true
     }
 }
