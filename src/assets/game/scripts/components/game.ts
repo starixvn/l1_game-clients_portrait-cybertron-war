@@ -1,4 +1,4 @@
-import { _decorator, Label } from "cc";
+import { _decorator, Label, Node } from "cc";
 import { startGame } from "db://shared-components/shared/scripts/startup";
 import Observer from "observer";
 
@@ -27,6 +27,14 @@ export default class Game extends ClassicSlot {
     @property({ type: Label, visible: false, override: true })
     lblMaxBet: Label = null;
 
+    @property(Node)
+    lazyLoadNode: Node = null;
+
     override namespace = settings.name;
     override containerOptions = containerOptions;
+
+    override async loadSymbols() {
+        await super.loadSymbols();
+        this.lazyLoadNode.active = true;
+    }
 }
