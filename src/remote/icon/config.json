@@ -1,4 +1,15 @@
 {
     "premultipliedAlpha": false,
-    "useWebp": true
+    "useWebp": true,
+    "gameNotification": {
+        "type": "slot",
+        "x": 0,
+        "y": 106
+    },
+    "extra": {
+        "slotJackpot": {
+            "x": 0,
+            "y": 106
+        }
+    }
 }
