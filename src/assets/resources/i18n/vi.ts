@@ -226,7 +226,7 @@ export const languages = {
         "auto_spin": "Tự Quay",
         "auto_spin_guide_text": "Chọn số lượt quay",
         "auto_spin_left": "Lượt Quay Tự Động Còn Lại",
-        "bet": "Mức Cược",
+        "bet": "Cược",
         "big_win": "Thắng Lớn",
         "bonus_count_text_item": "Số lần mở thưởng",
         "close": "Đóng",
