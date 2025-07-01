@@ -3,7 +3,6 @@
         "resources": [
             "prefabs/effects/effect-freespin",
             "prefabs/effects/effect-big-win",
-            "prefabs/effects/effect-jackpot",
             "prefabs/effects/effect-bonus",
             "prefabs/effects/effect-transition",
             "prefabs/dialogs/dialog-bonus"
