@@ -10,7 +10,6 @@
     "bones": [
         { "name": "root" },
         { "name": "all", "parent": "root" },
-        { "name": "number-label", "parent": "all", "y": -16 },
         { "name": "coin", "parent": "all", "x": -32.1, "y": 96.3 },
         { "name": "coin_1_a", "parent": "coin" },
         { "name": "coin_1_y_1", "parent": "coin_1_a" },
@@ -72,7 +71,8 @@
         { "name": "leaf-r5", "parent": "leaf-r4", "length": 57.94, "rotation": -25.12, "x": 113.53, "y": -11.38 },
         { "name": "leaf-r6", "parent": "leaf-r5", "length": 45.72, "rotation": -28.2, "x": 91.55, "y": -12.42 },
         { "name": "outer2", "parent": "character", "y": 77.38 },
-        { "name": "value", "parent": "VFX", "x": -0.03, "y": -0.06 }
+        { "name": "value", "parent": "VFX", "x": -0.03, "y": -0.06 },
+        { "name": "number-label", "parent": "frame", "y": -49 }
     ],
     "slots": [
         { "name": "fx_bloom", "bone": "outer", "attachment": "fx_bloom", "blend": "additive" },
