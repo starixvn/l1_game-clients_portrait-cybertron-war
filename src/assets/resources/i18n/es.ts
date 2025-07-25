@@ -242,7 +242,7 @@ export const languages = {
         "from_settle_to_spin3": "¡PRUEBA EL MODO TURBO!",
         "hall_of_fame": "Salón de la Fama",
         "index": "No.",
-        "jackpot": "Bote",
+        "jackpot": "Jackpot",
         "lines": "Líneas",
         "non_winning_payline": "Líneas de pago no ganadoras",
         "no_of_symbol": "Cantidad",

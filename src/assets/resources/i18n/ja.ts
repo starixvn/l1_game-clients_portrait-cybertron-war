@@ -242,7 +242,7 @@ export const languages = {
         "from_settle_to_spin3": "ターボモードをお試しください！",
         "hall_of_fame": "殿堂入り",
         "index": "いいえ。",
-        "jackpot": "ジャックポット",
+        "jackpot": "Jackpot",
         "lines": "ペイライン",
         "non_winning_payline": "不的中ライン",
         "no_of_symbol": "数量",
@@ -261,7 +261,7 @@ export const languages = {
     },
     "SummerHeat": {
         "game_icon_name": "Summer Heat",
-        "game_name": "真夏の熱気"
+        "game_name": "Summer Heat"
     }
 };
 
