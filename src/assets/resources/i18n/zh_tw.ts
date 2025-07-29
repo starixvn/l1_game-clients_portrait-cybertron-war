@@ -243,6 +243,7 @@ export const languages = {
         "hall_of_fame": "名人堂",
         "index": "號",
         "jackpot": "Jackpot",
+        "jackpot_game": "\tJackpot遊戲",
         "lines": "線",
         "non_winning_payline": "未獲勝支付線",
         "no_of_symbol": "數量",

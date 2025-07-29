@@ -240,6 +240,7 @@ export const languages = {
         "hall_of_fame": "Vinh Danh",
         "index": "STT",
         "jackpot": "Nổ Hũ",
+        "jackpot_game": "Game Nổ Hũ",
         "lines": "Dòng Cược",
         "non_winning_payline": "Không có dòng cược thắng",
         "no_of_symbol": "Số Lượng",

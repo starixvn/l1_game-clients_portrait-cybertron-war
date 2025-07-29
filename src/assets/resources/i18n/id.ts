@@ -240,6 +240,7 @@ export const languages = {
         "hall_of_fame": "Hall of Fame",
         "index": "Nomor",
         "jackpot": "Jackpot",
+        "jackpot_game": "Game Jackpot",
         "lines": "Garis",
         "non_winning_payline": "Paylines yang tidak menang",
         "no_of_symbol": "Kuantitas",

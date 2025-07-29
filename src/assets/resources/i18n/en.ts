@@ -243,6 +243,7 @@ export const languages = {
         "hall_of_fame": "Hall of Fame",
         "index": "No.",
         "jackpot": "Jackpot",
+        "jackpot_game": "Jackpot Game",
         "lines": "Lines",
         "non_winning_payline": "Non-winning Paylines",
         "no_of_symbol": "Quantity",

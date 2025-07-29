@@ -240,6 +240,7 @@ export const languages = {
         "hall_of_fame": "หอเกียรติยศ",
         "index": "หมายเลข",
         "jackpot": "Jackpot",
+        "jackpot_game": "เกม Jackpot",
         "lines": "เส้น",
         "non_winning_payline": "ช่องจ่ายเงินที่ไม่ชนะ",
         "no_of_symbol": "จำนวน",
