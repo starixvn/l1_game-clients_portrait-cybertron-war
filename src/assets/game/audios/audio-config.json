@@ -71,6 +71,10 @@
         "bundle": "resources",
         "isLazyLoad": true
     },
+    "peek-effect": {
+        "bundle": "resources",
+        "isLazyLoad": true
+    },
     "song1": {
         "bundle": "resources",
         "path": "music/song1",

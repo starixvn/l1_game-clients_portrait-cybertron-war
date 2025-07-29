@@ -20,4 +20,5 @@ export enum AudioIds {
     TRANSITION = "transition",
     WIN = "win",
     TAP_SYMBOL = "tap-symbol",
+    PEEK_EFFECT = "peek-effect",
 }
