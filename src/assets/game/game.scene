@@ -14218,7 +14218,10 @@
       "__uuid__": "798b7e22-55e9-471e-bd0a-8993d2c7b46c",
       "__expectedType__": "cc.JsonAsset"
     },
-    "gameFeatureJson": null,
+    "gameFeatureJson": {
+      "__uuid__": "9bbee382-a072-4f23-aacf-2dd944dd9ae7",
+      "__expectedType__": "cc.JsonAsset"
+    },
     "lazyLoadNode": {
       "__id__": 18
     },
