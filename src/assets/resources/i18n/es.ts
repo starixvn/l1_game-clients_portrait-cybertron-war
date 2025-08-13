@@ -231,7 +231,7 @@ export const languages = {
         "auto_spin_guide_text": "Número de giros automáticos",
         "auto_spin_left": "Giros automáticos restantes",
         "bet": "Apuesta",
-        "big_win": "Gran Victoria",
+        "big_win": "Gran Ganancia",
         "bonus_count_text_item": "Número de ítems",
         "close": "Cerrar",
         "disable_turbo_mode": "Desactivar modo turbo",
