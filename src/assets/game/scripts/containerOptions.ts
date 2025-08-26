@@ -8,6 +8,7 @@ import { NullDisableGameHandlers } from "./handlers/null-disable-game-handlers";
 import { NullErrorHandlers } from "./handlers/null-errors-handlers";
 import { NullRoundTimeHandlers } from "./handlers/null-round-time-handlers";
 import { NullSettlementHandlers } from "./handlers/null-settlement-handlers";
+import * as CommonSlotFeature from "db://shared-common-slot/index";
 
 export const containerOptions: gc.IContainerOptions = {
     globalContainer: sharedContainer,
@@ -21,5 +22,5 @@ export const containerOptions: gc.IContainerOptions = {
         container.bind(gc.Rounds.RoundTimeHandlers).to(NullRoundTimeHandlers);
         container.bind(gc.Bet.BetResponseHandlers).to(NullBetResponseHandlers);
     },
-    features: [ClassicSlot, gc.BetDetailsNew, ...gc.defaultFeatures],
+    features: [ClassicSlot, CommonSlotFeature, gc.BetDetailsNew, ...gc.defaultFeatures],
 };
