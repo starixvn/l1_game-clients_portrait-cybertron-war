@@ -1,30 +1,36 @@
 {
     "lobbyNames": {
         "en": "Summer Heat",
-        "es": "Summer Heat",
-        "fil_ph": "Summer Heat",
-        "id": "Summer Heat",
-        "ja": "Summer Heat",
-        "ko": "여름 열기",
-        "pt_br": "Calor de Verão",
         "th": "ซัมเมอร์สุดร้อน",
-        "tr": "Yaz Sıcağı",
+        "id": "Summer Heat",
         "vi": "Mùa Hè Nóng Bỏng",
         "zh_cn": "夏日炎炎",
-        "zh_tw": "夏日炎炎"
+        "zh_tw": "夏日炎炎",
+        "ja": "Summer Heat",
+        "es": "Summer Heat",
+        "tr": "Yaz Sıcağı",
+        "fil_ph": "Summer Heat",
+        "pt_br": "Calor de Verão",
+        "ko": "여름 열기",
+        "bn_bd": "Summer Heat",
+        "hi_in": "Summer Heat",
+        "ms_my": "Summer Heat"
     },
     "gameNames": {
         "en": "Summer Heat",
-        "es": "Summer Heat",
-        "fil_ph": "Summer Heat",
-        "id": "Summer Heat",
-        "ja": "Summer Heat",
-        "ko": "여름 열기",
-        "pt_br": "Calor de Verão",
         "th": "ซัมเมอร์สุดร้อน",
-        "tr": "Yaz Sıcağı",
+        "id": "Summer Heat",
         "vi": "Mùa Hè Nóng Bỏng",
         "zh_cn": "夏日炎炎",
-        "zh_tw": "夏日炎炎"
+        "zh_tw": "夏日炎炎",
+        "ja": "Summer Heat",
+        "es": "Summer Heat",
+        "tr": "Yaz Sıcağı",
+        "fil_ph": "Summer Heat",
+        "pt_br": "Calor de Verão",
+        "ko": "여름 열기",
+        "bn_bd": "Summer Heat",
+        "hi_in": "Summer Heat",
+        "ms_my": "Summer Heat"
     }
 }
