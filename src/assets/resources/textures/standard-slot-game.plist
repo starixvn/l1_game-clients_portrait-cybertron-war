@@ -199,7 +199,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>history-jackpot.png</key>
+            <key>history-jackpot-vi-VN.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -214,7 +214,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>history-jackpot.vi-VN.png</key>
+            <key>history-jackpot.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -409,7 +409,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>symbol-10.jackpot-blur.png</key>
+            <key>symbol-10-jackpot-blur.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -424,22 +424,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>symbol-10.jackpot.png</key>
-            <dict>
-                <key>aliases</key>
-                <array/>
-                <key>spriteOffset</key>
-                <string>{0,3}</string>
-                <key>spriteSize</key>
-                <string>{80,72}</string>
-                <key>spriteSourceSize</key>
-                <string>{100,100}</string>
-                <key>textureRect</key>
-                <string>{{940,1384},{80,72}}</string>
-                <key>textureRotated</key>
-                <false/>
-            </dict>
-            <key>symbol-10.jackpot.vi-VN-blur.png</key>
+            <key>symbol-10-jackpot-vi-VN-blur.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -454,7 +439,7 @@
                 <key>textureRotated</key>
                 <true/>
             </dict>
-            <key>symbol-10.jackpot.vi-VN.png</key>
+            <key>symbol-10-jackpot-vi-VN.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -466,6 +451,21 @@
                 <string>{100,100}</string>
                 <key>textureRect</key>
                 <string>{{529,1278},{78,72}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>symbol-10-jackpot.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,3}</string>
+                <key>spriteSize</key>
+                <string>{80,72}</string>
+                <key>spriteSourceSize</key>
+                <string>{100,100}</string>
+                <key>textureRect</key>
+                <string>{{940,1384},{80,72}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -828,7 +828,7 @@
             <key>size</key>
             <string>{1024,2048}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:2064e84a54b8cd4c0b92e332b6625013:a33f77d19d2563ffb64ab129a5cbed1e:3c13b940d52c931d845dbb5c93af3d66$</string>
+            <string>$TexturePacker:SmartUpdate:6be4fab31c2f4ce783547ca61d7a8975:ee26f7a1bbf748bb4a48eb06bc2137ce:3c13b940d52c931d845dbb5c93af3d66$</string>
             <key>textureFileName</key>
             <string>standard-slot-game.webp</string>
         </dict>

@@ -7,52 +7,6 @@
     ".json"
   ],
   "subMetas": {
-    "31910": {
-      "importer": "sprite-frame",
-      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@31910",
-      "displayName": "",
-      "id": "31910",
-      "name": "symbol-10.jackpot",
-      "userData": {
-        "trimType": "auto",
-        "trimThreshold": 1,
-        "rotated": false,
-        "offsetX": 0,
-        "offsetY": 3,
-        "trimX": 940,
-        "trimY": 1384,
-        "width": 80,
-        "height": 72,
-        "rawWidth": 100,
-        "rawHeight": 100,
-        "borderTop": 0,
-        "borderBottom": 0,
-        "borderLeft": 0,
-        "borderRight": 0,
-        "packable": true,
-        "pixelsToUnit": 100,
-        "pivotX": 0.5,
-        "pivotY": 0.5,
-        "meshType": 0,
-        "vertices": {
-          "rawPosition": [],
-          "indexes": [],
-          "uv": [],
-          "nuv": [],
-          "minPos": [],
-          "maxPos": []
-        },
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "02deb6a5-796f-4adb-879a-9215117c7304@6c48a",
-        "atlasUuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514"
-      },
-      "ver": "1.0.12",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
     "42044": {
       "importer": "sprite-frame",
       "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@42044",
@@ -743,14 +697,13 @@
       ],
       "subMetas": {}
     },
-    "464fc": {
+    "60d86": {
       "importer": "sprite-frame",
-      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@464fc",
+      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@60d86",
       "displayName": "",
-      "id": "464fc",
-      "name": "history-jackpot",
+      "id": "60d86",
+      "name": "history-jackpot-vi-VN",
       "userData": {
-        "trimType": "auto",
         "trimThreshold": 1,
         "rotated": false,
         "offsetX": 0,
@@ -780,7 +733,8 @@
         },
         "isUuid": true,
         "imageUuidOrDatabaseUri": "02deb6a5-796f-4adb-879a-9215117c7304@6c48a",
-        "atlasUuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514"
+        "atlasUuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514",
+        "trimType": "auto"
       },
       "ver": "1.0.12",
       "imported": true,
@@ -789,12 +743,12 @@
       ],
       "subMetas": {}
     },
-    "629d9": {
+    "464fc": {
       "importer": "sprite-frame",
-      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@629d9",
+      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@464fc",
       "displayName": "",
-      "id": "629d9",
-      "name": "history-jackpot.vi-VN",
+      "id": "464fc",
+      "name": "history-jackpot",
       "userData": {
         "trimType": "auto",
         "trimThreshold": 1,
@@ -1341,14 +1295,13 @@
       ],
       "subMetas": {}
     },
-    "ae6ea": {
+    "1bc21": {
       "importer": "sprite-frame",
-      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@ae6ea",
+      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@1bc21",
       "displayName": "",
-      "id": "ae6ea",
-      "name": "symbol-10.jackpot-blur",
+      "id": "1bc21",
+      "name": "symbol-10-jackpot-blur",
       "userData": {
-        "trimType": "auto",
         "trimThreshold": 1,
         "rotated": true,
         "offsetX": 1,
@@ -1378,7 +1331,8 @@
         },
         "isUuid": true,
         "imageUuidOrDatabaseUri": "02deb6a5-796f-4adb-879a-9215117c7304@6c48a",
-        "atlasUuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514"
+        "atlasUuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514",
+        "trimType": "auto"
       },
       "ver": "1.0.12",
       "imported": true,
@@ -1387,12 +1341,12 @@
       ],
       "subMetas": {}
     },
-    "269ce": {
+    "48b72": {
       "importer": "sprite-frame",
-      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@269ce",
+      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@48b72",
       "displayName": "",
-      "id": "269ce",
-      "name": "symbol-10.jackpot.vi-VN-blur",
+      "id": "48b72",
+      "name": "symbol-10-jackpot-vi-VN-blur",
       "userData": {
         "trimThreshold": 1,
         "rotated": true,
@@ -1433,14 +1387,13 @@
       ],
       "subMetas": {}
     },
-    "3353a": {
+    "43b07": {
       "importer": "sprite-frame",
-      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@3353a",
+      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@43b07",
       "displayName": "",
-      "id": "3353a",
-      "name": "symbol-10.jackpot.vi-VN",
+      "id": "43b07",
+      "name": "symbol-10-jackpot-vi-VN",
       "userData": {
-        "trimType": "auto",
         "trimThreshold": 1,
         "rotated": false,
         "offsetX": 0,
@@ -1470,7 +1423,54 @@
         },
         "isUuid": true,
         "imageUuidOrDatabaseUri": "02deb6a5-796f-4adb-879a-9215117c7304@6c48a",
-        "atlasUuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514"
+        "atlasUuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e8774": {
+      "importer": "sprite-frame",
+      "uuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514@e8774",
+      "displayName": "",
+      "id": "e8774",
+      "name": "symbol-10-jackpot",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 3,
+        "trimX": 940,
+        "trimY": 1384,
+        "width": 80,
+        "height": 72,
+        "rawWidth": 100,
+        "rawHeight": 100,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "02deb6a5-796f-4adb-879a-9215117c7304@6c48a",
+        "atlasUuid": "766602cb-5cd9-48af-8b3c-9eb4f7811514",
+        "trimType": "auto"
       },
       "ver": "1.0.12",
       "imported": true,
