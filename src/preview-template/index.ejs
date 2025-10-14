@@ -17,13 +17,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         
         <!-- Preload critical resources -->
-        <link rel="preload" href="./index.css" as="style" />
-        <link rel="preload" href="/scripting/polyfills/bundle.js" as="script" />
-        <link rel="preload" href="/scripting/systemjs/system.js" as="script" />
+        <link rel="preload" href="./index.css" as="style" crossorigin="anonymous" />
+        <link rel="preload" href="/scripting/polyfills/bundle.js" as="script" crossorigin="anonymous" />
+        <link rel="preload" href="/scripting/systemjs/system.js" as="script" crossorigin="anonymous" />
         
         <!-- Load CSS asynchronously to prevent render blocking -->
-        <link rel="stylesheet" type="text/css" href="./index.css" media="print" onload="this.media='all'" />
-        <noscript><link rel="stylesheet" type="text/css" href="./index.css" /></noscript>
+        <link rel="stylesheet" type="text/css" href="./index.css" media="print" onload="this.media='all'" crossorigin="anonymous" />
+        <noscript><link rel="stylesheet" type="text/css" href="./index.css" crossorigin="anonymous" /></noscript>
     </head>
     <body>
         <%- include(cocosToolBar, {config: config}) %>

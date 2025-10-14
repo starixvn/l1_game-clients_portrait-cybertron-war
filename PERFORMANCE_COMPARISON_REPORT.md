@@ -102,16 +102,25 @@ if (path.endsWith(".js") || path.endsWith(".css")) {
 ### **Resource Preloading**
 
 ```html
-<link rel="preload" href="./index.css" as="style" />
-<link rel="preload" href="/scripting/polyfills/bundle.js" as="script" />
-<link rel="preload" href="/scripting/systemjs/system.js" as="script" />
+<link rel="preload" href="./index.css" as="style" crossorigin="anonymous" />
+<link rel="preload" href="/scripting/polyfills/bundle.js" as="script" crossorigin="anonymous" />
+<link rel="preload" href="/scripting/systemjs/system.js" as="script" crossorigin="anonymous" />
 ```
 
 ### **Asynchronous CSS Loading**
 
 ```html
-<link rel="stylesheet" href="./index.css" media="print" onload="this.media='all'" />
-<noscript><link rel="stylesheet" href="./index.css" /></noscript>
+<link rel="stylesheet" href="./index.css" media="print" onload="this.media='all'" crossorigin="anonymous" />
+<noscript><link rel="stylesheet" href="./index.css" crossorigin="anonymous" /></noscript>
+```
+
+### **CORS Configuration**
+
+```javascript
+// CORS headers for static assets
+res.setHeader("Access-Control-Allow-Origin", "*");
+res.setHeader("Access-Control-Allow-Methods", "GET, HEAD, OPTIONS");
+res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 ```
 
 ## 🎉 **Summary**
@@ -123,6 +132,7 @@ The optimization implementation has successfully:
 3. ✅ **Optimized cache headers** for better caching
 4. ✅ **Reduced render-blocking** resources
 5. ✅ **Added performance monitoring** capabilities
+6. ✅ **Fixed CORS issues** for proper preload functionality
 
 ### **Overall Performance Improvement: 40-60% faster loading**
 

@@ -20,6 +20,11 @@ app.use(
         etag: true,
         lastModified: true,
         setHeaders: (res, path) => {
+            // Set CORS headers for all static assets
+            res.setHeader("Access-Control-Allow-Origin", "*");
+            res.setHeader("Access-Control-Allow-Methods", "GET, HEAD, OPTIONS");
+            res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
             // Set longer cache for JS/CSS files
             if (path.endsWith(".js") || path.endsWith(".css")) {
                 res.setHeader("Cache-Control", "public, max-age=31536000"); // 1 year
