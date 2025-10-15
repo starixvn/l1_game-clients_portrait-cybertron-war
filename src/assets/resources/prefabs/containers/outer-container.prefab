@@ -153,7 +153,7 @@
       "__id__": 4
     },
     "bundleName": "classic-slot-bundle",
-    "path": "prefabs/top-winners-dialog",
+    "path": "v-portrait/prefabs/top-winners-dialog-portrait",
     "_id": ""
   },
   {
@@ -538,15 +538,15 @@
       "__id__": 26
     },
     "prefab": {
-      "__uuid__": "eaa517a2-ba7a-42f0-8fbb-f17fb6d7b0a9",
+      "__uuid__": "6513b759-2db3-4428-963f-7c55f25c7119",
       "__expectedType__": "cc.Prefab"
     },
     "headerPrefab": {
-      "__uuid__": "98fa9588-48c9-41d4-b867-ae7385162426",
+      "__uuid__": "12898c98-d383-43da-a09f-8afe58cc63e6",
       "__expectedType__": "cc.Prefab"
     },
     "bodyItemPrefab": {
-      "__uuid__": "9ff441a4-e207-45f5-9b89-aba6e5fc0386",
+      "__uuid__": "ecaefcb0-4067-4635-a2f9-90d5cba8f951",
       "__expectedType__": "cc.Prefab"
     },
     "resultPrefab": null,
