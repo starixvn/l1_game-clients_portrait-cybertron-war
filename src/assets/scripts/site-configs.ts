@@ -28,7 +28,7 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     tolgeeUrl: "",
     subPromotionDomain: "l2-promotion",
     sentry: {
-        dsn: "https://08ed9d9a76415a01ba8df0bfa8f07472@sentry-kl.sgamesuat.com/27",
+        dsn: "https://9c999f9b51e3b4543cb160b946b5bcbe@sentry-k8s.lumigame.com/30",
         browserUrl: "https://browser.sentry-cdn.com/10.5.0/bundle.min.js",
         urlHash: "sha384-SAsRvjfAFRX3iwi3MG6ToeZNJVpHcRXKcITfFVLQipWK3uQ8SakuVmHDoSR3YNmJ",
         ignoreErrors: [],
