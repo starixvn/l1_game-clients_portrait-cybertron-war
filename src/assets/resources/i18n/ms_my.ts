@@ -356,7 +356,9 @@ export const languages = {
         "msg_free_spins": "Dapatkan ≥%{free_spin_odds} %{free_spin_symbol} pada kekili berbeza untuk memenangi Free Spins",
         "msg_wild": "%{wild_symbol} menggantikan semua simbol kecuali %{bonus_symbol}, %{free_spin_symbol} dan %{symbol_10}",
         "last_free_spin": "Free Spin Terakhir",
-        "bet_level": "Aras Pertaruhan"
+        "bet_level": "Aras Pertaruhan",
+        "bonus": "Bonus",
+        "free_spins": "Free Spins"
     },
     "FreeSpinBonus": {
         "bet_level": "Bet Level",

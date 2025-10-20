@@ -352,7 +352,9 @@ export const languages = {
         "msg_free_spins": "在不同轉軸上擊中≥%{free_spin_odds}個%{free_spin_symbol}即可贏得Free Spin",
         "msg_wild": "%{wild_symbol}可替代除%{bonus_symbol}、%{free_spin_symbol}和%{symbol_10}之外的所有符號",
         "last_free_spin": "最後一次 Free Spin",
-        "bet_level": "賭注級別"
+        "bet_level": "賭注級別",
+        "bonus": "Bonus",
+        "free_spins": "Free Spins"
     },
     "SummerHeat": {
         "game_icon_name": "夏日炎炎",

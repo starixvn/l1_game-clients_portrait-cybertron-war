@@ -352,7 +352,9 @@ export const languages = {
         "msg_free_spins": "Quay trúng ≥%{free_spin_odds}  %{free_spin_symbol} trên các cột khác nhau để thắng Free Spin",
         "msg_wild": "%{wild_symbol} thay thế tất cả biểu tượng, trừ %{bonus_symbol}, %{free_spin_symbol} và %{symbol_10}",
         "last_free_spin": "Free Spin Cuối",
-        "bet_level": "Mức Cược"
+        "bet_level": "Mức Cược",
+        "bonus": "Bonus",
+        "free_spins": "Free Spins"
     },
     "SummerHeat": {
         "game_icon_name": "Mùa Hè Nóng Bỏng",

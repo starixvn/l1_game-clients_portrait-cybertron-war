@@ -352,7 +352,9 @@ export const languages = {
         "msg_free_spins": "Dapatkan ≥%{free_spin_odds} %{free_spin_symbol} pada gulungan berbeda untuk memenangkan Free Spin",
         "msg_wild": "%{wild_symbol} menggantikan semua simbol kecuali %{bonus_symbol}, %{free_spin_symbol}, dan %{symbol_10}",
         "last_free_spin": "Free Spin Terakhir",
-        "bet_level": "Level Taruhan"
+        "bet_level": "Level Taruhan",
+        "bonus": "Bonus",
+        "free_spins": "Free Spins"
     },
     "SummerHeat": {
         "game_icon_name": "Summer Heat",

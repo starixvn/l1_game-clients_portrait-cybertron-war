@@ -356,7 +356,9 @@ export const languages = {
         "msg_free_spins": "Acerte ≥%{free_spin_odds}  %{free_spin_symbol} em diferentes rolos para ganhar Free Spins",
         "msg_wild": "%{wild_symbol} substitui todos os símbolos, exceto %{bonus_symbol}, %{free_spin_symbol} e %{symbol_10}",
         "last_free_spin": "Última Free Spin",
-        "bet_level": "Nível de Aposta"
+        "bet_level": "Nível de Aposta",
+        "bonus": "Bonus",
+        "free_spins": "Free Spins"
     },
     "FreeSpinBonus": {
         "bet_level": "Nível de Aposta",

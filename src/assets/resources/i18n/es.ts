@@ -352,7 +352,9 @@ export const languages = {
         "msg_free_spins": "Consigue ≥%{free_spin_odds}  %{free_spin_symbol} en diferentes rodillos para ganar Free Spin",
         "msg_wild": "%{wild_symbol} sustituye a todos los símbolos excepto %{bonus_symbol}, %{free_spin_symbol} y %{symbol_10}",
         "last_free_spin": "Último Free Spin",
-        "bet_level": "Nivel de Apuesta"
+        "bet_level": "Nivel de Apuesta",
+        "bonus": "Bonus",
+        "free_spins": "Free Spins"
     },
     "SummerHeat": {
         "game_icon_name": "Summer Heat",

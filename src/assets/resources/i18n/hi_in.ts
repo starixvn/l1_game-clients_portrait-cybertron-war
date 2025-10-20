@@ -356,7 +356,9 @@ export const languages = {
         "msg_free_spins": "Free Spins जीतने के लिए अलग-अलग रीलों पर ≥%{free_spin_odds} %{free_spin_symbol} मारें",
         "msg_wild": "%{wild_symbol}, %{bonus_symbol}, %{free_spin_symbol} और %{symbol_10} को छोड़कर सभी प्रतीकों के लिए स्थानापन्न है",
         "last_free_spin": "अंतिम Free Spin",
-        "bet_level": "बेट लेवल"
+        "bet_level": "बेट लेवल",
+        "bonus": "Bonus",
+        "free_spins": "Free Spins"
     },
     "FreeSpinBonus": {
         "bet_level": "बेट लेवल",

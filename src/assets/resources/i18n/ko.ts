@@ -356,7 +356,9 @@ export const languages = {
         "msg_free_spins": "Free Spins에서 이기려면 서로 다른 릴에서 ≥%{free_spin_odds} %{free_spin_symbol}을 맞히세요.",
         "msg_wild": "%{wild_symbol}은(는) %{bonus_symbol}, %{free_spin_symbol} 및 %{symbol_10}을(를) 제외한 모든 심볼을 대체합니다.",
         "last_free_spin": "마지막 Free Spin",
-        "bet_level": "베팅 레벨"
+        "bet_level": "베팅 레벨",
+        "bonus": "Bonus",
+        "free_spins": "Free Spins"
     },
     "FreeSpinBonus": {
         "bet_level": "베팅 레벨",

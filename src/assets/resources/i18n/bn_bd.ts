@@ -356,7 +356,9 @@ export const languages = {
         "msg_free_spins": "Free Spin জিততে বিভিন্ন রিলগুলিতে ≥3 {free_spin_symbol} হিট করুন",
         "msg_wild": "{wild_symbol}, {bonus_symbol}, {free_spin_symbol} এবং {symbol_10} ছাড়া সব প্রতীকের জায়গা নিতে পারে",
         "last_free_spin": "শেষ Free Spin",
-        "bet_level": "বাজির স্তর"
+        "bet_level": "বাজির স্তর",
+        "bonus": "Bonus",
+        "free_spins": "Free Spins"
     },
     "FreeSpinBonus": {
         "bet_level": "বেট লেভেল",
