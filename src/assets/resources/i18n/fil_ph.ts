@@ -355,7 +355,8 @@ export const languages = {
         "msg_bonus_symbol": "Tumama ng ≥%{bonus_odds}  %{bonus_symbol} sa magkakaibang reels para manalo ng Bonus game",
         "msg_free_spins": "Tumama ng ≥%{free_spin_odds}  %{free_spin_symbol} sa magkakaibang reels para manalo ng Free Spins",
         "msg_wild": "Ang %{wild_symbol} ay pamalit sa lahat ng simbolo maliban sa %{bonus_symbol}, %{free_spin_symbol} at %{symbol_10}",
-        "last_free_spin": "Huling Free Spin"
+        "last_free_spin": "Huling Free Spin",
+        "bet_level": "Bet Level"
     },
     "FreeSpinBonus": {
         "bet_level": "Bet Level",

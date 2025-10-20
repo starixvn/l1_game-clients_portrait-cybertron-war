@@ -351,7 +351,8 @@ export const languages = {
         "msg_bonus_symbol": "異なるリールに%{bonus_symbol}が%{bonus_odds} 個以上出るとボーナスゲーム獲得",
         "msg_free_spins": "異なるリールに%{free_spin_symbol}が%{free_spin_odds}個以上出るとFree Spin獲得",
         "msg_wild": "%{wild_symbol}は%{bonus_symbol}・%{free_spin_symbol}・%{symbol_10}を除く全てのシンボルの代わりになる",
-        "last_free_spin": "最後の Free Spin"
+        "last_free_spin": "最後の Free Spin",
+        "bet_level": "ベットレベル"
     },
     "SummerHeat": {
         "game_icon_name": "Summer Heat",

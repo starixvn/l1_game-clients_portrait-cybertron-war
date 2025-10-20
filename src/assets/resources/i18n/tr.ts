@@ -355,7 +355,8 @@ export const languages = {
         "msg_bonus_symbol": "Bonus oyunu kazanmak için farklı makaralarda ≥%{bonus_odds}  %{bonus_symbol} yakalayın",
         "msg_free_spins": "Free Spins kazanmak için farklı makaralarda ≥%{free_spin_odds}  %{free_spin_symbol} yakalayın",
         "msg_wild": "%{wild_symbol}, %{bonus_symbol}, %{free_spin_symbol} ve %{symbol_10} dışındaki tüm sembollerin yerine geçer",
-        "last_free_spin": "Son Free Spin"
+        "last_free_spin": "Son Free Spin",
+        "bet_level": "Bahis Seviyesi"
     },
     "FreeSpinBonus": {
         "bet_level": "Bahis Seviyesi",

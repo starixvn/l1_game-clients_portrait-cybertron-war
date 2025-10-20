@@ -346,12 +346,13 @@ export const languages = {
         "turbo_mode": "Siêu Tốc",
         "payout": "Trả Thưởng",
         "play_now_btn": "Chơi Ngay!",
-        "remaining_free_spins": "Lượt Free Spin Còn Lại",
+        "remaining_free_spins": "Free Spin Còn Lại",
         "balance": "SỐ DƯ",
         "msg_bonus_symbol": "Quay trúng ≥%{bonus_odds}  %{bonus_symbol} trên các cột khác nhau sẽ thắng Bonus game",
         "msg_free_spins": "Quay trúng ≥%{free_spin_odds}  %{free_spin_symbol} trên các cột khác nhau để thắng Free Spin",
         "msg_wild": "%{wild_symbol} thay thế tất cả biểu tượng, trừ %{bonus_symbol}, %{free_spin_symbol} và %{symbol_10}",
-        "last_free_spin": "Lượt Free Spin Cuối"
+        "last_free_spin": "Free Spin Cuối",
+        "bet_level": "Mức Cược"
     },
     "SummerHeat": {
         "game_icon_name": "Mùa Hè Nóng Bỏng",
