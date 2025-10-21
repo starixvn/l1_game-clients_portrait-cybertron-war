@@ -1,24 +1,21 @@
-info face="C:\Users\jimmy.nguyen.LUMINET\Downloads\font-bitmap-20250513T065147Z-001\font-bitmap\big-money-font" size=150 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
-common lineHeight=150 advanceY base=26 scaleW=512 scaleH=512 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+info face="big-money-font" size=119 ld=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=10,10
+common lineHeight=119 base=119 scaleW=398 scaleH=363 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
 page id=0 file="big-money-font.png"
-chars count=18
-char id=49 x=343 y=0 width=60 height=132 xoffset=0 yoffset=0 sy xadvance=62 page=0 chnl=0 letter="1"
-char id=50 x=238 y=0 width=104 height=136 xoffset=0 yoffset=0 sy xadvance=106 page=0 chnl=0 letter="2"
-char id=51 x=232 y=274 width=104 height=136 xoffset=0 yoffset=0 sy xadvance=106 page=0 chnl=0 letter="3"
-char id=52 x=0 y=137 width=116 height=132 xoffset=0 yoffset=0 sy xadvance=118 page=0 chnl=0 letter="4"
-char id=53 x=232 y=137 width=108 height=136 xoffset=0 yoffset=0 sy xadvance=110 page=0 chnl=0 letter="5"
-char id=54 x=123 y=0 width=114 height=136 xoffset=0 yoffset=0 sy xadvance=116 page=0 chnl=0 letter="6"
-char id=55 x=341 y=137 width=95 height=132 xoffset=0 yoffset=0 sy xadvance=97 page=0 chnl=0 letter="7"
-char id=56 x=117 y=274 width=114 height=136 xoffset=0 yoffset=0 sy xadvance=116 page=0 chnl=0 letter="8"
-char id=57 x=117 y=137 width=114 height=136 xoffset=0 yoffset=0 sy xadvance=116 page=0 chnl=0 letter="9"
-char id=48 x=0 y=270 width=116 height=136 xoffset=0 yoffset=0 sy xadvance=118 page=0 chnl=0 letter="0"
-char id=75 x=0 y=0 width=122 height=136 xoffset=0 yoffset=0 sy xadvance=124 page=0 chnl=0 letter="K"
-char id=58 x=64 y=407 width=35 height=104 xoffset=0 yoffset=23 sy xadvance=37 page=0 chnl=0 letter=":"
-char id=46 x=100 y=411 width=35 height=39 xoffset=0 yoffset=100 sy xadvance=37 page=0 chnl=0 letter="."
-char id=44 x=0 y=451 width=39 height=54 xoffset=0 yoffset=96 sy xadvance=41 page=0 chnl=0 letter=","
-char id=45 x=0 y=407 width=63 height=43 xoffset=0 yoffset=53.5 sy xadvance=65 page=0 chnl=0 letter="-"
-char id=43 x=337 y=274 width=104 height=112 xoffset=0 yoffset=19 sy xadvance=106 page=0 chnl=0 letter="+"
-char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 sy xadvance=20 page=0 chnl=0 letter=" "
-char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 sy xadvance=160 page=0 chnl=0 letter="	"
+chars count=15
+char id=49 x=309 y=121 width=56 height=107 xoffset=0 yoffset=10 xadvance=56 page=0 chnl=0 letter="1"
+char id=50 x=212 y=0 width=89 height=111 xoffset=0 yoffset=8 xadvance=89 page=0 chnl=0 letter="2"
+char id=51 x=208 y=242 width=89 height=111 xoffset=0 yoffset=8 xadvance=89 page=0 chnl=0 letter="3"
+char id=52 x=0 y=0 width=98 height=107 xoffset=0 yoffset=9 xadvance=98 page=0 chnl=0 letter="4"
+char id=53 x=208 y=121 width=91 height=111 xoffset=0 yoffset=8 xadvance=91 page=0 chnl=0 letter="5"
+char id=54 x=104 y=238 width=94 height=111 xoffset=0 yoffset=8 xadvance=94 page=0 chnl=0 letter="6"
+char id=55 x=307 y=242 width=81 height=108 xoffset=0 yoffset=8 xadvance=81 page=0 chnl=0 letter="7"
+char id=56 x=0 y=238 width=94 height=111 xoffset=0 yoffset=8 xadvance=94 page=0 chnl=0 letter="8"
+char id=57 x=108 y=0 width=94 height=111 xoffset=0 yoffset=8 xadvance=94 page=0 chnl=0 letter="9"
+char id=48 x=0 y=117 width=98 height=111 xoffset=0 yoffset=8 xadvance=98 page=0 chnl=0 letter="0"
+char id=46 x=354 y=43 width=31 height=35 xoffset=0 yoffset=84 xadvance=31 page=0 chnl=0 letter="."
+char id=43 x=311 y=43 width=33 height=49 xoffset=0 yoffset=35 xadvance=33 page=0 chnl=0 letter="+"
+char id=45 x=108 y=121 width=64 height=70 xoffset=0 yoffset=25 xadvance=64 page=0 chnl=0 letter="-"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=21 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=0 page=0 chnl=0 letter="	"
 
 kernings count=0
