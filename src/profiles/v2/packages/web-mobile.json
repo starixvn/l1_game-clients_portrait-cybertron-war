@@ -56,7 +56,7 @@
     },
     "options": {
       "web-mobile": {
-        "orientation": "portrait",
+        "orientation": "auto",
         "embedWebDebugger": false,
         "__version__": "1.0.1",
         "cullEngineAsmJsModule": false,
@@ -65,7 +65,7 @@
     },
     "taskOptionsMap": {
       "1681353552761": {
-        "orientation": "portrait",
+        "orientation": "auto",
         "embedWebDebugger": false,
         "__version__": "1.0.1",
         "cullEngineAsmJsModule": false,
