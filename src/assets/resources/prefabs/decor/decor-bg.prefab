@@ -73,13 +73,13 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 2635.60009765625,
-      "height": 862.0499877929688
+      "width": 786,
+      "height": 1390
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.6031263912152359,
-      "y": 0.45589003603626693
+      "x": 0.5,
+      "y": 0.5
     },
     "_id": ""
   },
@@ -141,6 +141,7 @@
       "__id__": 0
     },
     "fileId": "7c9S7GpvVKGIiWdOSqBoot",
+    "instance": null,
     "targetOverrides": null
   }
 ]
