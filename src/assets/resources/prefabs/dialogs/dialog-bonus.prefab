@@ -1864,7 +1864,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 588,
+      "width": 680,
       "height": 0
     },
     "_anchorPoint": {
@@ -1902,13 +1902,13 @@
     "_paddingRight": 0,
     "_paddingTop": 0,
     "_paddingBottom": 0,
-    "_spacingX": 22,
-    "_spacingY": 19,
+    "_spacingX": 45,
+    "_spacingY": 20,
     "_verticalDirection": 1,
     "_horizontalDirection": 0,
     "_constraint": 0,
     "_constraintNum": 2,
-    "_affectedByScale": false,
+    "_affectedByScale": true,
     "_isAlign": false,
     "_id": ""
   },
