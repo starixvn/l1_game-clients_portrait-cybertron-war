@@ -1,467 +1,467 @@
 
 effect-big-win.webp
-size: 1963,1339
+size: 1997,1339
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 frame
-  rotate: false
-  xy: 2, 1150
-  size: 610, 187
-  orig: 893, 214
-  offset: 150, 11
+  rotate: true
+  xy: 2, 617
+  size: 720, 190
+  orig: 740, 214
+  offset: 10, 14
   index: -1
 fx_bloom
   rotate: false
-  xy: 2, 751
+  xy: 1627, 16
   size: 322, 208
   orig: 322, 208
   offset: 0, 0
   index: -1
 leaf-L1
-  rotate: false
-  xy: 2, 961
+  rotate: true
+  xy: 2, 122
   size: 493, 187
   orig: 493, 187
   offset: 0, 0
   index: -1
 leaf-L2
-  rotate: true
-  xy: 496, 790
+  rotate: false
+  xy: 1826, 1209
   size: 169, 128
   orig: 169, 128
   offset: 0, 0
   index: -1
 leaf-r1
   rotate: true
-  xy: 326, 742
+  xy: 1826, 990
   size: 217, 168
   orig: 217, 168
   offset: 0, 0
   index: -1
 leaf-r2
   rotate: true
-  xy: 1799, 129
+  xy: 1492, 2
   size: 222, 133
   orig: 222, 133
   offset: 0, 0
   index: -1
 ui/coin/mc_coin_215_000
   rotate: false
-  xy: 1881, 47
+  xy: 248, 42
   size: 77, 80
   orig: 100, 100
   offset: 13, 10
   index: -1
 ui/coin/mc_coin_215_001
   rotate: false
-  xy: 497, 1068
+  xy: 84, 40
   size: 80, 80
   orig: 100, 100
   offset: 10, 10
   index: -1
 ui/coin/mc_coin_215_002
   rotate: false
-  xy: 497, 986
+  xy: 166, 40
   size: 80, 80
   orig: 100, 100
   offset: 10, 10
   index: -1
 ui/coin/mc_coin_215_003
   rotate: false
-  xy: 1799, 45
+  xy: 2, 38
   size: 80, 82
   orig: 100, 100
   offset: 10, 8
   index: -1
 ui/coin/mc_coin_215_004
   rotate: false
-  xy: 2, 2
+  xy: 1826, 241
   size: 76, 79
   orig: 100, 100
   offset: 10, 11
   index: -1
 ui/coin/mc_coin_215_005
   rotate: false
-  xy: 80, 2
+  xy: 1904, 241
   size: 74, 79
   orig: 100, 100
   offset: 10, 11
   index: -1
 ui/coin/mc_coin_215_006
-  rotate: false
-  xy: 232, 2
+  rotate: true
+  xy: 1388, 933
   size: 70, 79
   orig: 100, 100
   offset: 11, 11
   index: -1
 ui/coin/mc_coin_215_007
   rotate: true
-  xy: 466, 8
+  xy: 1307, 795
   size: 64, 79
   orig: 100, 100
   offset: 13, 11
   index: -1
 ui/coin/mc_coin_215_008
-  rotate: true
-  xy: 547, 14
+  rotate: false
+  xy: 327, 42
   size: 58, 80
   orig: 100, 100
   offset: 16, 10
   index: -1
 ui/coin/mc_coin_215_009
-  rotate: true
-  xy: 792, 15
+  rotate: false
+  xy: 441, 42
   size: 50, 80
   orig: 100, 100
   offset: 20, 10
   index: -1
 ui/coin/mc_coin_215_010
-  rotate: true
-  xy: 1881, 2
+  rotate: false
+  xy: 493, 42
   size: 43, 80
   orig: 100, 100
   offset: 24, 10
   index: -1
 ui/coin/mc_coin_215_011
   rotate: true
-  xy: 874, 31
+  xy: 2, 2
   size: 34, 80
   orig: 100, 100
   offset: 30, 10
   index: -1
 ui/coin/mc_coin_215_012
   rotate: true
-  xy: 956, 37
+  xy: 248, 12
   size: 28, 80
   orig: 100, 100
   offset: 35, 10
   index: -1
 ui/coin/mc_coin_215_013
-  rotate: false
-  xy: 579, 1068
+  rotate: true
+  xy: 166, 9
   size: 29, 80
   orig: 100, 100
   offset: 37, 10
   index: -1
 ui/coin/mc_coin_215_014
   rotate: true
-  xy: 1799, 8
+  xy: 84, 3
   size: 35, 80
   orig: 100, 100
   offset: 36, 10
   index: -1
 ui/coin/mc_coin_215_015
   rotate: true
-  xy: 496, 745
+  xy: 194, 626
   size: 43, 80
   orig: 100, 100
   offset: 33, 10
   index: -1
 ui/coin/mc_coin_215_016
-  rotate: true
-  xy: 629, 13
+  rotate: false
+  xy: 387, 42
   size: 52, 80
   orig: 100, 100
   offset: 29, 10
   index: -1
 ui/coin/mc_coin_215_017
   rotate: true
-  xy: 711, 6
+  xy: 1388, 800
   size: 59, 79
   orig: 100, 100
   offset: 26, 10
   index: -1
 ui/coin/mc_coin_215_018
   rotate: true
-  xy: 385, 6
+  xy: 1307, 861
   size: 66, 79
   orig: 100, 100
   offset: 22, 10
   index: -1
 ui/coin/mc_coin_215_019
   rotate: true
-  xy: 304, 2
+  xy: 1388, 861
   size: 70, 79
   orig: 100, 100
   offset: 19, 10
   index: -1
 ui/coin/mc_coin_215_020
-  rotate: false
-  xy: 156, 2
+  rotate: true
+  xy: 1307, 929
   size: 74, 79
   orig: 100, 100
   offset: 16, 10
   index: -1
 vfx/liquid00
   rotate: true
-  xy: 2, 417
+  xy: 191, 283
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid01
   rotate: false
-  xy: 948, 1180
+  xy: 191, 124
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid02
   rotate: true
-  xy: 2, 83
+  xy: 194, 1005
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid03
   rotate: true
-  xy: 161, 417
+  xy: 194, 671
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid04
-  rotate: false
-  xy: 1282, 1180
+  rotate: true
+  xy: 350, 337
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid05
   rotate: true
-  xy: 161, 83
+  xy: 353, 1005
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid06
-  rotate: false
-  xy: 1616, 1180
+  rotate: true
+  xy: 353, 671
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid07
   rotate: true
-  xy: 320, 408
+  xy: 509, 337
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid08
   rotate: true
-  xy: 320, 74
+  xy: 538, 3
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid09
-  rotate: false
-  xy: 614, 1021
+  rotate: true
+  xy: 512, 1005
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid10
-  rotate: false
-  xy: 948, 1021
+  rotate: true
+  xy: 512, 671
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid11
-  rotate: false
-  xy: 1282, 1021
+  rotate: true
+  xy: 668, 337
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid12
-  rotate: false
-  xy: 1616, 1021
+  rotate: true
+  xy: 697, 3
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid13
   rotate: true
-  xy: 479, 408
+  xy: 671, 1005
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid14
   rotate: true
-  xy: 479, 74
+  xy: 671, 671
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid15
-  rotate: false
-  xy: 638, 862
+  rotate: true
+  xy: 827, 337
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid16
-  rotate: false
-  xy: 972, 862
+  rotate: true
+  xy: 856, 3
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid17
-  rotate: false
-  xy: 1306, 862
+  rotate: true
+  xy: 830, 1005
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid18
-  rotate: false
-  xy: 638, 703
+  rotate: true
+  xy: 830, 671
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid19
-  rotate: false
-  xy: 638, 544
+  rotate: true
+  xy: 986, 337
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid20
-  rotate: false
-  xy: 972, 703
+  rotate: true
+  xy: 1015, 3
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid21
-  rotate: false
-  xy: 638, 385
+  rotate: true
+  xy: 989, 1005
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid22
-  rotate: false
-  xy: 972, 544
+  rotate: true
+  xy: 989, 671
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid23
-  rotate: false
-  xy: 1306, 703
+  rotate: true
+  xy: 1145, 337
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid24
-  rotate: false
-  xy: 638, 226
+  rotate: true
+  xy: 1174, 3
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid25
-  rotate: false
-  xy: 972, 385
+  rotate: true
+  xy: 1148, 1005
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid26
-  rotate: false
-  xy: 1306, 544
+  rotate: true
+  xy: 1148, 671
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid27
   rotate: true
-  xy: 1640, 687
+  xy: 1304, 337
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid28
-  rotate: false
-  xy: 972, 226
+  rotate: true
+  xy: 1333, 3
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid29
   rotate: false
-  xy: 1306, 385
+  xy: 1492, 1180
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid30
   rotate: false
-  xy: 1306, 226
+  xy: 1492, 1021
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid31
-  rotate: true
-  xy: 1640, 353
+  rotate: false
+  xy: 1492, 862
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid32
-  rotate: false
-  xy: 638, 67
+  rotate: true
+  xy: 1826, 656
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid33
   rotate: false
-  xy: 972, 67
+  xy: 1492, 703
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid34
   rotate: false
-  xy: 1306, 67
+  xy: 1492, 544
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid35
   rotate: true
-  xy: 1799, 687
+  xy: 1826, 322
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid36
-  rotate: true
-  xy: 1799, 353
+  rotate: false
+  xy: 1492, 385
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid37
-  rotate: true
-  xy: 1640, 19
+  rotate: false
+  xy: 1492, 226
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
   index: -1
 vfx/liquid38
-  rotate: false
-  xy: 614, 1180
+  rotate: true
+  xy: 1307, 1005
   size: 332, 157
   orig: 350, 170
   offset: 9, 7
