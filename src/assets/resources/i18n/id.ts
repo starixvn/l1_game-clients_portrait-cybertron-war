@@ -310,7 +310,8 @@ export const languages = {
         "pop_over_on_loss_increase_by": "Naikkan sebesar: Naikkan taruhan Anda sebesar persentase yang ditetapkan ketika Anda kalah.",
         "pop_over_on_loss_example": "(Contoh: Setel +50% → Mulai dengan $10 → kalah → taruhan berikutnya $15).",
         "hot_key_enabled": "Hotkeys Diaktifkan",
-        "auto_bet_warning": "Penggunaan skrip bersifat opsional dan pemain harus bertanggung jawab penuh atas segala risiko yang mungkin timbul. Kami tidak akan bertanggung jawab dalam hal ini."
+        "auto_bet_warning": "Penggunaan skrip bersifat opsional dan pemain harus bertanggung jawab penuh atas segala risiko yang mungkin timbul. Kami tidak akan bertanggung jawab dalam hal ini.",
+        "pop_over_demo_mode": "Bertaruh dengan 0 akan masuk ke mode demo."
     },
     "Classicslot": {
         "auto_spin": "Auto Putar",
@@ -353,7 +354,7 @@ export const languages = {
         "msg_free_spins": "Dapatkan ≥%{free_spin_odds} %{free_spin_symbol} pada gulungan berbeda untuk memenangkan Free Spin",
         "msg_wild": "%{wild_symbol} menggantikan semua simbol kecuali %{bonus_symbol}, %{free_spin_symbol}, dan %{symbol_10}",
         "last_free_spin": "Free Spin Terakhir",
-        "bet_level": "Level Taruhan",
+        "bet_level": "Tingkat Taruhan",
         "bonus": "Bonus",
         "free_spins": "Free Spins",
         "big_win_2_lines": "Kemenangan\nBesar",
