@@ -303,15 +303,16 @@ export const languages = {
         "hot_key_double_bet": "Gandakan Jumlah Taruhan",
         "hot_key_half_bet": "Setengah Jumlah Taruhan",
         "hot_key_min_bet": "Taruhan Min",
-        "pop_over_on_win_reset": "Reset: Kembali ke taruhan awal Anda setelah menang.",
-        "pop_over_on_win_increase_by": "Naikkan sebesar: Naikkan taruhan Anda dengan persentase yang ditetapkan saat Anda menang.",
+        "pop_over_on_win_reset": "Kembali ke taruhan awal Anda setelah menang.",
+        "pop_over_on_win_increase_by": "Naikkan taruhan Anda dengan persentase tertentu saat Anda menang.",
         "pop_over_on_win_example": "(Contoh: Setel +20% → Mulai dengan $10 → menang → taruhan berikutnya $12)",
-        "pop_over_on_loss_reset": "Reset: Kembali ke taruhan awal Anda setelah kalah.",
-        "pop_over_on_loss_increase_by": "Naikkan sebesar: Naikkan taruhan Anda sebesar persentase yang ditetapkan ketika Anda kalah.",
+        "pop_over_on_loss_reset": "Kembali ke taruhan awal Anda setelah kalah.",
+        "pop_over_on_loss_increase_by": "Naikkan taruhan Anda dengan persentase yang ditetapkan saat Anda kalah.",
         "pop_over_on_loss_example": "(Contoh: Setel +50% → Mulai dengan $10 → kalah → taruhan berikutnya $15).",
-        "hot_key_enabled": "Hotkeys Diaktifkan",
-        "auto_bet_warning": "Penggunaan skrip bersifat opsional dan pemain harus bertanggung jawab penuh atas segala risiko yang mungkin timbul. Kami tidak akan bertanggung jawab dalam hal ini.",
-        "pop_over_demo_mode": "Bertaruh dengan 0 akan masuk ke mode demo."
+        "auto_bet_warning": "Dengan mengaktifkan Auto Bet, pemain menerima tanggung jawab penuh atas penggunaannya, dan penyedia game tidak bertanggung jawab atas hasil apa pun.",
+        "pop_over_demo_mode": "Taruhan 0 akan mengaktifkan Mode Demo",
+        "hot_key_enable": "Hotkeys Diaktifkan",
+        "hot_key_disable": "Tombol Pintas Dinonaktifkan"
     },
     "Classicslot": {
         "auto_spin": "Auto Putar",
