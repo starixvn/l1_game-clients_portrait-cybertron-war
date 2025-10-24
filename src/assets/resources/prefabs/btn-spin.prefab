@@ -547,12 +547,12 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 150,
-      "height": 150
+      "width": 130,
+      "height": 130
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
+      "x": 0.5153846153846153,
       "y": 0.5
     },
     "_id": ""
@@ -562,7 +562,7 @@
     "fileId": "0f1dzQoX5K+4XQnttwqpus"
   },
   {
-    "__type__": "cc.Sprite",
+    "__type__": "sp.Skeleton",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -583,31 +583,28 @@
       "b": 255,
       "a": 255
     },
-    "_spriteFrame": {
-      "__uuid__": "766602cb-5cd9-48af-8b3c-9eb4f7811514@78a6a",
-      "__expectedType__": "cc.SpriteFrame"
+    "_skeletonData": {
+      "__uuid__": "1d8012f2-6414-496d-88fd-b6eb416baba7",
+      "__expectedType__": "sp.SkeletonData"
     },
-    "_type": 0,
-    "_fillType": 0,
-    "_sizeMode": 2,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": false,
-    "_useGrayscale": false,
-    "_atlas": {
-      "__uuid__": "766602cb-5cd9-48af-8b3c-9eb4f7811514",
-      "__expectedType__": "cc.SpriteAtlas"
-    },
+    "defaultSkin": "default",
+    "defaultAnimation": "idle",
+    "_premultipliedAlpha": false,
+    "_timeScale": 1,
+    "_preCacheMode": 0,
+    "_cacheMode": 0,
+    "_sockets": [],
+    "_useTint": false,
+    "_debugMesh": false,
+    "_debugBones": false,
+    "_debugSlots": false,
+    "_enableBatch": false,
+    "loop": true,
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "a5e5isH/xNz4E6zDSFdNDb"
+    "fileId": "48GDLipqdEuarT2hmd90M4"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -813,7 +810,7 @@
     "fileId": "1eNjcbXX1N9Jwn/KWDkLnc"
   },
   {
-    "__type__": "cc.Button",
+    "__type__": "ef655PvwNpP9KLitp07O23K",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -865,14 +862,12 @@
     "_disabledSprite": null,
     "_duration": 0.1,
     "_zoomScale": 1.2,
-    "_target": {
-      "__id__": 17
-    },
+    "_target": null,
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "b9Sgq/jppDGrkO1FUXJV7O"
+    "fileId": "45DgsL4ftF5I9wTYq7s1W/"
   },
   {
     "__type__": "cc.ClickEvent",
@@ -942,6 +937,9 @@
     },
     "nodeAutoSpin": {
       "__id__": 17
+    },
+    "spineAutoSpin": {
+      "__id__": 21
     },
     "_id": ""
   },

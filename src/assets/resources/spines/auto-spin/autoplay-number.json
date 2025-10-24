@@ -1,0 +1,94 @@
+{
+    "skeleton": {
+        "hash": "DjBlyGrmpVPt3oqNNIdrjlRgEyY",
+        "spine": "3.8.99",
+        "x": -67,
+        "y": -65,
+        "width": 130,
+        "height": 130
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "glow",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "auto play",
+            "bone": "root",
+            "attachment": "auto play"
+        },
+        {
+            "name": "glow",
+            "bone": "glow",
+            "attachment": "glow",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "auto play": {
+                    "auto play": {
+                        "x": -2,
+                        "width": 130,
+                        "height": 130
+                    }
+                },
+                "glow": {
+                    "glow": {
+                        "x": -2,
+                        "width": 130,
+                        "height": 130
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "hover": {
+            "slots": {
+                "glow": {
+                    "color": [
+                        {
+                            "color": "ffffff00",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff",
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "glow": {
+                    "scale": [
+                        {
+                            "curve": 0.25,
+                            "c3": 0.75
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 1.6,
+                            "y": 1.6
+                        }
+                    ]
+                }
+            }
+        },
+        "idle": {}
+    }
+}
