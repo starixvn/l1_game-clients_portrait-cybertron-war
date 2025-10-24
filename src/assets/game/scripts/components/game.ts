@@ -32,6 +32,7 @@ export default class Game extends ClassicSlot {
 
     override namespace = settings.name;
     override containerOptions = containerOptions;
+    protected enableEventShowHideGame = false;
 
     override async loadSymbols() {
         await super.loadSymbols();
