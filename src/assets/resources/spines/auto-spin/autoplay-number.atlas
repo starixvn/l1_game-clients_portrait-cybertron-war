@@ -1,20 +1,13 @@
 
-autoplay-number.webp
-size: 262,132
+autoplay-number.png
+size: 16,16
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-auto play
-  rotate: false
-  xy: 2, 2
-  size: 128, 128
-  orig: 130, 130
-  offset: 1, 1
-  index: -1
 glow
   rotate: false
-  xy: 132, 2
-  size: 128, 128
-  orig: 130, 130
-  offset: 1, 1
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
   index: -1

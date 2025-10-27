@@ -1,8 +1,8 @@
 {
     "skeleton": {
-        "hash": "DjBlyGrmpVPt3oqNNIdrjlRgEyY",
+        "hash": "tUctdZEsGGwWf9KCofQWS41l2Bk",
         "spine": "3.8.99",
-        "x": -67,
+        "x": -65,
         "y": -65,
         "width": 130,
         "height": 130
@@ -18,13 +18,9 @@
     ],
     "slots": [
         {
-            "name": "auto play",
-            "bone": "root",
-            "attachment": "auto play"
-        },
-        {
             "name": "glow",
             "bone": "glow",
+            "color": "ffffff00",
             "attachment": "glow",
             "blend": "additive"
         }
@@ -33,16 +29,8 @@
         {
             "name": "default",
             "attachments": {
-                "auto play": {
-                    "auto play": {
-                        "x": -2,
-                        "width": 130,
-                        "height": 130
-                    }
-                },
                 "glow": {
                     "glow": {
-                        "x": -2,
                         "width": 130,
                         "height": 130
                     }
@@ -88,7 +76,6 @@
                     ]
                 }
             }
-        },
-        "idle": {}
+        }
     }
 }
