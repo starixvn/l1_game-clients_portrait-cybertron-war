@@ -1,55 +1,27 @@
 
 effect-jackpot.webp
-size: 764,352
+size: 1116,250
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Objects copy
+fx_bloom
   rotate: false
-  xy: 2, 7
-  size: 340, 343
-  orig: 340, 343
+  xy: 794, 87
+  size: 320, 161
+  orig: 322, 162
+  offset: 1, 0
+  index: -1
+fx_glow01
+  rotate: false
+  xy: 2, 2
+  size: 529, 246
+  orig: 529, 246
   offset: 0, 0
   index: -1
-bonusgame_ttt_bum
+jackpot-box
   rotate: true
-  xy: 344, 148
-  size: 202, 201
-  orig: 205, 205
-  offset: 2, 2
-  index: -1
-flare2 copy 13
-  rotate: false
-  xy: 717, 305
-  size: 45, 45
-  orig: 56, 56
-  offset: 4, 6
-  index: -1
-leaf
-  rotate: false
-  xy: 583, 2
-  size: 160, 170
-  orig: 160, 170
-  offset: 0, 0
-  index: -1
-leaf2
-  rotate: false
-  xy: 344, 31
-  size: 153, 115
-  orig: 153, 115
-  offset: 0, 0
-  index: -1
-leaf3
-  rotate: true
-  xy: 499, 12
-  size: 134, 82
-  orig: 134, 82
-  offset: 0, 0
-  index: -1
-leaf3 copy
-  rotate: true
-  xy: 547, 174
-  size: 176, 168
-  orig: 176, 168
+  xy: 533, 17
+  size: 231, 259
+  orig: 231, 259
   offset: 0, 0
   index: -1
