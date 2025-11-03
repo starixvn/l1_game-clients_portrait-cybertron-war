@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Al habilitar Auto Bet, los jugadores aceptan toda la responsabilidad por su uso, y el proveedor del juego no asume ninguna responsabilidad por los resultados.",
         "hot_key_enable": "Teclas de acceso rápido habilitadas",
         "pop_over_demo_mode": "Apostar 0 activará el modo Demo",
-        "hot_key_disable": "Teclas de acceso rápido deshabilitadas"
+        "hot_key_disable": "Teclas de acceso rápido deshabilitadas",
+        "balance": "SALDO",
+        "num_of_auto_play": "Número de giros automáticos:"
     },
     "Classicslot": {
         "auto_spin": "Giro Automático",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "Ganancia Total",
         "Unexpected_gift_code_error_message": "Se ha producido un error inesperado. Por favor, inténtelo de nuevo más tarde.",
         "Close": "Cerrar"
+    },
+    "Transformers": {
+        "game_name": "Cybertron War",
+        "game_icon_name": "Cybertron War"
     }
 };
 

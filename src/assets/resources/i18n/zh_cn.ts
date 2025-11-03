@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "启用自动投注后，玩家将对其使用承担全部责任，游戏提供商对任何结果不承担任何责任。",
         "hot_key_enable": "已启用热键",
         "pop_over_demo_mode": "下注 0 将激活演示模式",
-        "hot_key_disable": "热键已禁用"
+        "hot_key_disable": "热键已禁用",
+        "balance": "余额",
+        "num_of_auto_play": "数量 自动游戏:"
     },
     "Classicslot": {
         "auto_spin": "自动旋转",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "总奖金",
         "Unexpected_gift_code_error_message": "发生意外错误。请稍后重试。",
         "Close": "关闭"
+    },
+    "Transformers": {
+        "game_name": "塞伯坦之战",
+        "game_icon_name": "塞伯坦之战"
     }
 };
 

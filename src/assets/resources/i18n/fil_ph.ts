@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Sa pagpapagana ng Auto Bet, tinatanggap ng mga manlalaro ang buong responsibilidad para sa paggamit nito, at ang provider ng laro ay hindi tumatanggap ng pananagutan para sa anumang resulta.",
         "hot_key_enable": "Pinagana ang mga Hotkey",
         "pop_over_demo_mode": "Ang pagtaya ng 0 ay magpapagana sa Demo Mode",
-        "hot_key_disable": "Hindi Pinagana ang mga Hotkey"
+        "hot_key_disable": "Hindi Pinagana ang mga Hotkey",
+        "balance": "BALANCE",
+        "num_of_auto_play": "Bilang ng Auto-Play:"
     },
     "SummerHeat": {
         "game_name": "Summer Heat",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "Total Win",
         "Unexpected_gift_code_error_message": "Nagkaroon ng hindi inaasahang error. Paki-subukan ulit mamaya.",
         "Close": "Isara"
+    },
+    "Transformers": {
+        "game_name": "Cybertron War",
+        "game_icon_name": "Cybertron War"
     }
 };
 

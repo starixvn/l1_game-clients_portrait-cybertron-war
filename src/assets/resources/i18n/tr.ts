@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Auto Bet'i etkinleştirerek, oyuncular kullanımının tüm sorumluluğunu kabul eder ve oyun sağlayıcısı herhangi bir sonuç için hiçbir sorumluluk kabul etmez.",
         "hot_key_enable": "Kısayol Tuşları Etkin",
         "pop_over_demo_mode": "0 Bahsi Demo Modunu etkinleştirecektir",
-        "hot_key_disable": "Kısayol Tuşları Devre Dışı"
+        "hot_key_disable": "Kısayol Tuşları Devre Dışı",
+        "balance": "BAKİYE",
+        "num_of_auto_play": "Otomatik Oynatma Sayısı:"
     },
     "SummerHeat": {
         "game_name": "Yaz Sıcağı",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "Total Win",
         "Unexpected_gift_code_error_message": "Beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
         "Close": "Kapat"
+    },
+    "Transformers": {
+        "game_name": "Cybertron Savaşı",
+        "game_icon_name": "Cybertron Savaşı"
     }
 };
 

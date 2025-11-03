@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "啟用自動投注後，玩家將對其使用承擔全部責任，遊戲供應商對任何結果不承擔任何責任。",
         "hot_key_enable": "已啟用熱鍵",
         "pop_over_demo_mode": "下注 0 將激活演示模式",
-        "hot_key_disable": "熱鍵已停用"
+        "hot_key_disable": "熱鍵已停用",
+        "balance": "餘額",
+        "num_of_auto_play": "數量 自動遊戲:"
     },
     "Classicslot": {
         "auto_spin": "自動旋轉",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "總獎金",
         "Unexpected_gift_code_error_message": "發生意外錯誤。請稍後重試。",
         "Close": "關閉"
+    },
+    "Transformers": {
+        "game_name": "賽博坦之戰",
+        "game_icon_name": "賽博坦之戰"
     }
 };
 

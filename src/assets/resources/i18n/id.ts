@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Dengan mengaktifkan Auto Bet, pemain menerima tanggung jawab penuh atas penggunaannya, dan penyedia game tidak bertanggung jawab atas hasil apa pun.",
         "pop_over_demo_mode": "Taruhan 0 akan mengaktifkan Mode Demo",
         "hot_key_enable": "Hotkeys Diaktifkan",
-        "hot_key_disable": "Tombol Pintas Dinonaktifkan"
+        "hot_key_disable": "Tombol Pintas Dinonaktifkan",
+        "balance": "saldo ",
+        "num_of_auto_play": "Jumlah Auto-Play:"
     },
     "Classicslot": {
         "auto_spin": "Auto Putar",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "Total Menang ",
         "Unexpected_gift_code_error_message": "Terjadi kesalahan tak terduga. Silakan coba lagi nanti.",
         "Close": "Tutup"
+    },
+    "Transformers": {
+        "game_name": "Perang Cybertron",
+        "game_icon_name": "Perang Cybertron"
     }
 };
 

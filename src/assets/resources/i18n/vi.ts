@@ -270,12 +270,12 @@ export const languages = {
         "tooltip_auto": "Tự động",
         "start_auto_bet": "Bắt đầu cược tự động",
         "number_of_bet": "Số vòng",
-        "on_win": "Nếu cược thắng",
-        "on_loss": "Nếu cược thua",
+        "on_win": "Nếu Cược Thắng",
+        "on_loss": "Nếu Cược Thua",
         "reset": "Đặt lại",
         "increase_by": "Tăng thêm",
-        "stop_on_win": "Dừng khi thắng",
-        "stop_on_loss": "Dừng khi thua",
+        "stop_on_win": "Dừng Khi Thắng",
+        "stop_on_loss": "Dừng Khi Thua",
         "manual": "Thủ công",
         "auto": "Tự động",
         "live_stats": "Thống kê trực tiếp",
@@ -310,9 +310,11 @@ export const languages = {
         "pop_over_on_loss_increase_by": "Tăng tiền cược của bạn theo một tỷ lệ phần trăm nhất định khi bạn thua.",
         "pop_over_on_loss_example": "(Ví dụ: Đặt +50% → Bắt đầu với $10 → thua → lần đặt cược tiếp theo $15).",
         "auto_bet_warning": "Bật Tự Động Cược đồng nghĩa với việc người chơi tự chịu trách nhiệm, nhà cung cấp không chịu trách nhiệm cho bất kỳ kết quả nào",
-        "hot_key_enable": "Đã bật Hotkeys",
+        "hot_key_enable": "Đã bật phím tắt",
         "pop_over_demo_mode": "Cược 0 sẽ kích hoạt chế độ chơi thử",
-        "hot_key_disable": "Đã tắt phím nóng"
+        "hot_key_disable": "Đã tắt phím tắt",
+        "balance": "Số dư",
+        "num_of_auto_play": "Chọn Số Lượt Chơi"
     },
     "Classicslot": {
         "auto_spin": "Tự Quay",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "Tổng Thắng",
         "Unexpected_gift_code_error_message": "Đã xảy ra lỗi. Vui lòng thử lại sau.",
         "Close": "Đóng"
+    },
+    "Transformers": {
+        "game_name": "Đại Chiến Robot",
+        "game_icon_name": "Đại Chiến\nRobot"
     }
 };
 

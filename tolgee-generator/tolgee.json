@@ -1,4 +1,8 @@
 {
-    "mainNamespace": "SummerHeat",
-    "additionalNamespaces": ["Common", "Classicslot", "FreeSpinBonus"]
+    "mainNamespace": "Transformers",
+    "additionalNamespaces": [
+        "Common",
+        "Classicslot",
+        "FreeSpinBonus"
+    ]
 }

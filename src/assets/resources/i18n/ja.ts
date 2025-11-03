@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Auto Betを有効にすると、プレイヤーはその使用に関するすべての責任を負い、ゲームプロバイダーはいかなる結果に対しても責任を負いません。",
         "hot_key_enable": "ホットキー有効",
         "pop_over_demo_mode": "ベット 0 でデモモードが有効になります",
-        "hot_key_disable": "ホットキーは無効です"
+        "hot_key_disable": "ホットキーは無効です",
+        "balance": "残高",
+        "num_of_auto_play": "オートプレイ回数:"
     },
     "Classicslot": {
         "auto_spin": "オートスピン",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "合計勝利額",
         "Unexpected_gift_code_error_message": "予期せぬエラーが発生しました。後ほどもう一度お試しください。",
         "Close": "閉じる"
+    },
+    "Transformers": {
+        "game_name": "Cybertron War",
+        "game_icon_name": "Cybertron War"
     }
 };
 
