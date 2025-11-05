@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Ao ativar o Auto Bet, os jogadores aceitam total responsabilidade pelo seu uso, e o provedor do jogo não assume nenhuma responsabilidade por quaisquer resultados.",
         "hot_key_enable": "Teclas de atalho ativadas",
         "pop_over_demo_mode": "A aposta 0 ativará o Modo Demo",
-        "hot_key_disable": "Teclas de atalho desativadas"
+        "hot_key_disable": "Teclas de atalho desativadas",
+        "balance": "SALDO",
+        "num_of_auto_play": "Número de Jogadas Automáticas:"
     },
     "SummerHeat": {
         "game_name": "Calor de Verão",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "Ganho Total",
         "Unexpected_gift_code_error_message": "Ocorreu um erro inesperado. Por favor, tente novamente mais tarde.",
         "Close": "Fechar"
+    },
+    "Transformers": {
+        "game_name": "Guerra de Cybertron",
+        "game_icon_name": "Guerra de Cybertron"
     }
 };
 

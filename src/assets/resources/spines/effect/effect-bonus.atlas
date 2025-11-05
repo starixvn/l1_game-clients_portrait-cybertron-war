@@ -1,153 +1,132 @@
 
 effect-bonus.webp
-size: 1681,293
+size: 562,488
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-BONUS
-  rotate: false
-  xy: 757, 89
-  size: 459, 202
-  orig: 461, 204
-  offset: 1, 2
-  index: -1
-coconut
+bg-magic
   rotate: true
-  xy: 2, 17
-  size: 274, 306
-  orig: 274, 306
-  offset: 0, 0
+  xy: 393, 229
+  size: 257, 161
+  orig: 259, 261
+  offset: 2, 51
   index: -1
-leaf
+flare
   rotate: false
-  xy: 1321, 168
-  size: 352, 123
-  orig: 352, 172
-  offset: 0, 0
+  xy: 206, 182
+  size: 32, 41
+  orig: 99, 98
+  offset: 31, 28
   index: -1
-leaf 3
-  rotate: true
-  xy: 1218, 97
-  size: 194, 88
-  orig: 194, 88
-  offset: 0, 0
-  index: -1
-lemon
+symbol/speed00
   rotate: false
-  xy: 1229, 5
-  size: 90, 90
-  orig: 90, 90
+  xy: 256, 127
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
-umbrella
+symbol/speed01
+  rotate: false
+  xy: 256, 127
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/speed02
+  rotate: false
+  xy: 256, 251
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/speed03
+  rotate: false
+  xy: 2, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/speed04
+  rotate: false
+  xy: 104, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/speed05
+  rotate: false
+  xy: 358, 127
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/speed06
+  rotate: false
+  xy: 460, 127
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/speed07
+  rotate: false
+  xy: 206, 25
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/speed08
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/speed09
+  rotate: false
+  xy: 104, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/speed10
+  rotate: false
+  xy: 308, 25
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/speed11
+  rotate: false
+  xy: 410, 25
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+symbol/symbol-00
   rotate: true
-  xy: 1321, 52
-  size: 114, 112
-  orig: 115, 112
+  xy: 129, 225
+  size: 126, 125
+  orig: 210, 179
+  offset: 39, 38
+  index: -1
+symbol/symbol-01
+  rotate: true
+  xy: 2, 206
+  size: 145, 125
+  orig: 210, 179
+  offset: 30, 38
+  index: -1
+text_bonus
+  rotate: false
+  xy: 2, 353
+  size: 389, 133
+  orig: 392, 152
   offset: 1, 0
   index: -1
-vfx/water00
+text_bonus-glitch
   rotate: false
-  xy: 573, 2
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water01
-  rotate: false
-  xy: 655, 2
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water02
-  rotate: false
-  xy: 737, 2
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water03
-  rotate: false
-  xy: 819, 7
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water04
-  rotate: false
-  xy: 901, 7
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water05
-  rotate: false
-  xy: 983, 7
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water06
-  rotate: false
-  xy: 1065, 7
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water07
-  rotate: false
-  xy: 1147, 7
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water08
-  rotate: false
-  xy: 1435, 86
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water09
-  rotate: false
-  xy: 1435, 4
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water10
-  rotate: false
-  xy: 1517, 86
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water11
-  rotate: false
-  xy: 1517, 4
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-vfx/water12
-  rotate: false
-  xy: 1599, 86
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-water
-  rotate: true
-  xy: 573, 84
-  size: 207, 182
-  orig: 209, 183
-  offset: 2, 1
-  index: -1
-water2
-  rotate: false
-  xy: 310, 19
-  size: 261, 272
-  orig: 323, 299
-  offset: 31, 27
+  xy: 2, 353
+  size: 389, 133
+  orig: 392, 152
+  offset: 1, 0
   index: -1

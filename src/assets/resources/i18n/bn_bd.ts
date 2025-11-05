@@ -291,7 +291,7 @@ export const languages = {
         "title_multiplier": "গুণক",
         "crash_start_in": "শুরু হবে %{time}",
         "crashed": "বিধ্বস্ত",
-        "start": "শুরু করুন",
+        "start": "শুরু",
         "max": "সর্বোচ্চ",
         "stop_auto_bet": "অটো বেট বন্ধ করুন",
         "msg_rotate_to_portrait": "খেলতে আপনার স্ক্রিনটি পোর্ট্রেট মোডে ঘোরান",
@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "স্ক্রিপ্টের ব্যবহার ঐচ্ছিক এবং খেলোয়াড়দের যেকোন সম্ভাব্য ঝুঁকির জন্য সম্পূর্ণ দায়িত্ব নিতে হবে। আমরা এই ব্যাপারে দায়ী থাকব না।",
         "hot_key_enable": "হটকি সক্রিয় করা হয়েছে",
         "pop_over_demo_mode": "বেট 0 ডেমো মোড সক্রিয় করবে",
-        "hot_key_disable": "হটকী নিষ্ক্রিয় করা হয়েছে"
+        "hot_key_disable": "হটকী নিষ্ক্রিয় করা হয়েছে",
+        "balance": "ব্যালেন্স",
+        "num_of_auto_play": "অটো-প্লে সংখ্যা:"
     },
     "SummerHeat": {
         "game_name": "Summer Heat",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "মোট জয়",
         "Unexpected_gift_code_error_message": " অপ্রত্যাশিত ত্রুটি ঘটেছে। পরে আবার চেষ্টা করুন।",
         "Close": "বন্ধ"
+    },
+    "Transformers": {
+        "game_name": "Cybertron War",
+        "game_icon_name": "Cybertron War"
     }
 };
 

@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Auto Bet을 활성화하면 플레이어는 사용에 대한 모든 책임을 지며, 게임 제공자는 결과에 대해 어떠한 책임도 지지 않습니다.",
         "hot_key_enable": "핫키 활성화됨",
         "pop_over_demo_mode": "0을 베팅하면 데모 모드가 활성화됩니다.",
-        "hot_key_disable": "단축키 비활성화됨"
+        "hot_key_disable": "단축키 비활성화됨",
+        "balance": "잔액",
+        "num_of_auto_play": "자동 플레이 횟수:"
     },
     "SummerHeat": {
         "game_name": "여름 열기",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "총 당첨금",
         "Unexpected_gift_code_error_message": "예기치 않은 오류가 발생했습니다. 나중에 다시 시도해 주십시오.",
         "Close": "닫기"
+    },
+    "Transformers": {
+        "game_name": "사이버트론 전쟁",
+        "game_icon_name": "사이버트론 전쟁"
     }
 };
 

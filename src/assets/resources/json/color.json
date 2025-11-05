@@ -5,8 +5,8 @@
   "bonusCountItemTextColor": "#FFE363",
   "noticeTextColor": "#ffffff",
   "noticeHighlightTextColor": "#FFE363",
-  "bottomAreaTextColor": "#1ee2ff",
-  "bottomAreaNumberColor": "#1ee2ff",
-  "bottomAreaButtonBorderColor": "#1ee2ff",
+  "bottomAreaTextColor": "#74f1ff",
+  "bottomAreaNumberColor": "#74f1ff",
+  "bottomAreaButtonBorderColor": "#74f1ff",
   "bottomAreaWinAmountColor": "#FFF10E"
 }
