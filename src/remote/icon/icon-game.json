@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "VEZVjyCGsKUAZmhjKOOgozUb8L8",
+	"hash": "ClyhZvoFjrtYK5ci2gpwrcpUCG4",
 	"spine": "3.8.99",
 	"x": -98,
 	"y": -214.18,
@@ -58,7 +58,7 @@
 		"name": "default",
 		"attachments": {
 			"3d": {
-				"3d": { "x": -0.22, "y": 137.29, "width": 196, "height": 156 }
+				"3d": { "x": -0.22, "y": 137.29, "rotation": 0.02, "width": 196, "height": 156 }
 			},
 			"bg-blank": {
 				"bg-blank": { "y": 0.5, "width": 196, "height": 429 }
