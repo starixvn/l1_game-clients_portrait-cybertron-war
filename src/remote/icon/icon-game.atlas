@@ -1,90 +1,90 @@
 
 icon-game.webp
-size: 954,513
+size: 950,509
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 3d
   rotate: false
-  xy: 350, 114
-  size: 196, 53
+  xy: 0, 111
+  size: 196, 54
   orig: 196, 156
-  offset: 0, 103
+  offset: 0, 102
   index: -1
 bg-blank
   rotate: false
-  xy: 558, 82
+  xy: 556, 80
   size: 196, 429
   orig: 196, 429
   offset: 0, 0
   index: -1
 bg3
   rotate: false
-  xy: 756, 82
+  xy: 754, 80
   size: 196, 429
   orig: 196, 429
   offset: 0, 0
   index: -1
 domdom
   rotate: false
-  xy: 718, 6
+  xy: 696, 4
   size: 134, 74
   orig: 134, 74
   offset: 0, 0
   index: -1
 fire/f08
   rotate: true
-  xy: 2, 89
+  xy: 0, 31
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 fire/f22
   rotate: true
-  xy: 176, 89
+  xy: 198, 87
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 fire/f32
   rotate: true
-  xy: 350, 34
+  xy: 372, 87
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 fire/f46
   rotate: true
-  xy: 2, 9
+  xy: 174, 7
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 fire/f56
   rotate: true
-  xy: 176, 9
+  xy: 348, 7
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 fire/f70
   rotate: true
-  xy: 544, 2
+  xy: 522, 0
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 prime
   rotate: true
-  xy: 2, 169
+  xy: 0, 167
   size: 342, 554
   orig: 342, 554
   offset: 0, 0
   index: -1
 prime-eye
-  rotate: true
-  xy: 524, 35
-  size: 77, 18
+  rotate: false
+  xy: 0, 9
+  size: 79, 20
   orig: 392, 600
-  offset: 164, 473
+  offset: 163, 472
   index: -1
