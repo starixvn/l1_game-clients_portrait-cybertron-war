@@ -6,10 +6,10 @@ filter: Linear,Linear
 repeat: none
 3d
   rotate: false
-  xy: 0, 111
-  size: 196, 54
+  xy: 348, 112
+  size: 196, 53
   orig: 196, 156
-  offset: 0, 102
+  offset: 0, 103
   index: -1
 bg-blank
   rotate: false
@@ -27,49 +27,49 @@ bg3
   index: -1
 domdom
   rotate: false
-  xy: 696, 4
+  xy: 716, 4
   size: 134, 74
   orig: 134, 74
   offset: 0, 0
   index: -1
 fire/f08
   rotate: true
-  xy: 0, 31
+  xy: 0, 87
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 fire/f22
   rotate: true
-  xy: 198, 87
+  xy: 174, 87
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 fire/f32
   rotate: true
-  xy: 372, 87
+  xy: 348, 32
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 fire/f46
   rotate: true
-  xy: 174, 7
+  xy: 0, 7
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 fire/f56
   rotate: true
-  xy: 348, 7
+  xy: 174, 7
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
   index: -1
 fire/f70
   rotate: true
-  xy: 522, 0
+  xy: 542, 0
   size: 78, 172
   orig: 78, 172
   offset: 0, 0
@@ -82,9 +82,9 @@ prime
   offset: 0, 0
   index: -1
 prime-eye
-  rotate: false
-  xy: 0, 9
-  size: 79, 20
+  rotate: true
+  xy: 522, 33
+  size: 77, 18
   orig: 392, 600
-  offset: 163, 472
+  offset: 164, 473
   index: -1
